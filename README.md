@@ -46,7 +46,7 @@ Each bot is assigned a custodian to manage its state and field questions. They a
 
 admin: The admin will assess possible candidates and grant ownership to the most qualified candidate. The admin is the sole decider of who is the official custodian of a bot but should seek out the opinions of the community before adding or revoking custodianship.<br>
 
-custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your bot. Once you are granted access, duplicate the template folder and configure the files within to reflect the state of your bot.<br>
+custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your bot. In the issue, comment links to chat instances that demonstrate effectiveness of the bot. Once you are granted access, duplicate the template folder and configure the files within to reflect the state of your bot.<br>
 
 admin: Once the bot is complete and a link is provided, the admin will update the directory in this file to include the new bot. The admin will then issue and close a pull request to update the main branch with the new model.<br>
 
@@ -55,11 +55,11 @@ revoking custodianship: If a custodian wishes to forfeit custodianship of a bot,
 revoking adminship: we'll cross that bridge when we come to it 😧
 
 # Making and maintaining bots:
-Activity: Once custodianship is granted, you're free to update your bot however you see fit. We just ask that you make a reasonable effort to aggregate user requests and improve your model, especially during periods of high activity such as when a model is changed, or the major revision of a language is released.<br><br>
+Activity: Once custodianship is granted, you're free to update your bot however you see fit. We just ask that you make a reasonable effort to seek and aggregate user requests and improve your bot, especially during periods of high activity such as when OpenAI updates their models, or a new major revision of a language is released.<br><br>
 
 Standards: The custodian has the final say in the name and description of a bot but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Flutter development made easy. Maintained by The Hadrio Group at https://github.com/Decron/FlutterGPT"<br><br>
 
-Experimentation: It may be beneficial to create a backup bot to experiment with.<br><br>
+Experimentation: It may be beneficial to create a backup bot to experiment with to avoid disrupting users of the primary bot.<br><br>
 
 # "I don't like reading isn't there just a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
