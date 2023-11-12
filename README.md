@@ -9,3 +9,32 @@ Flutter GPT: https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br>
 Python GPT: https://chat.openai.com/g/g-c188mmoYi-python-gpt<br> 
 
 This project is very new so please excuse the clutter. This is an exciting new opprotunity and we're working as fast as possible to accelerate the capabilities of these models.
+
+# How does it work?
+1. Background<br>
+AI models can accelerate a developer's abilities by suggesting improvments and providing context about technical details. A key flaw however is that they are not continuously up to date on best practices for every domain. Because of this, all models have blind spots that limit their full potential. This project aims to combat those flaws by creating knowledge files and instructions that are purpose-designed to fill the gaps of a model's knowledge.
+
+1. Purpose and Functionality<br>
+How does it work: The latest generation of multimodal LLM models have the capacity to parse through massive files that would typically overwhelm its context window. If information is structured correctly, this can vastly increase the amount of knowledge availible to a model when working in a known field.<br><br>
+Specialization: Each knowledge file is dedicated to a particular entity or topic, providing in-depth information about it. This could include historical data, technical specifications, or any relevant details.<br><br>
+Integration with GPT: These files are designed to be integrated into the GPT model's existing knowledge base, augmenting its ability to generate accurate and contextually relevant responses about the specific entities.<br><br>
+Content Organization: Information within these files is usually organized in a hierarchical or relational manner, allowing the model to understand the connections between different pieces of data.<br><br>
+
+4. Creation and Maintenance<br>
+Data Sourcing: The information in these files is compiled from reliable sources, ensuring accuracy and relevancy. Experts for given frameworks are welcome to create new knowledge files or improvements to how models operate.<br><br>
+Regular Updates: To maintain the relevance of the information, these knowledge files are regularly updated with the latest data.<br><br>
+Quality Assurance: Rigorous checks are conducted to ensure accuracy of the information. A secondary goal of this project is to develop automated testing to ensure widespread functionality can be guarunteed for all models.<br><br>
+
+6. Impact on GPT Performance<br>
+Enhanced Accuracy: By having direct access to detailed information, the GPT model can provide better and more accurate responses.<br><br>
+Efficiency in Data Retrieval: Since the data is structured and tailored for quick retrieval, the response time can be faster for queries related to these entities.<br><br>
+Customization: This approach allows for customization of the GPT model’s responses based on the specific requirements of the application or domain.<br><br>
+
+7. Challenges and Considerations<br>
+Data Privacy and Security: Ensuring that sensitive information within these files is securely handled is crucial.<br><br>
+Bias and Reliability: Care must be taken to avoid introducing biases into the GPT model through these knowledge files.<br><br>
+Scalability: As the number of entities increases, maintaining and updating these files can become challenging. We will rely on members of the community to support our growing ecosystem by taking custody of new models if additional specialization is required<br><br>
+
+8. Applications<br>
+general: integrating enhanced GPT capabilities will significantly improve user experience, especially in applications where specialized knowledge is a key component of user interactions. The design should ensure seamless integration of these knowledge files, maintaining both the aesthetic appeal and the functional efficiency of the application.<br><br>
+Industry-Specific Uses: For industries like healthcare, finance, or law, where specialized knowledge is vital, these files can greatly enhance the model's performance.<br><br>
