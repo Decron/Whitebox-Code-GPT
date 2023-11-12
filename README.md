@@ -6,7 +6,10 @@ This repository contains the instructions, functions, and knowledge files used t
 # Existing models:
 Git assistant (Decron): https://chat.openai.com/g/g-8z4fiuUqu-git-assistant<br>
 Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br> 
-Python GPT (Decron): https://chat.openai.com/g/g-c188mmoYi-python-gpt<br> 
+Python GPT (Decron): https://chat.openai.com/g/g-c188mmoYi-python-gpt<br>
+C# (PrimeEagle): *Coming soon*
+<br><br>
+Requesting Custodians for: Python (data science), Rust, Go, Unity.
 
 This project is very new so please excuse the clutter. This is an exciting new opprotunity and we're working as fast as possible to accelerate the capabilities of these models.
 
@@ -38,3 +41,16 @@ Scalability: As the number of entities increases, maintaining and updating these
 8. Applications<br>
 general: integrating enhanced GPT capabilities will significantly improve user experience, especially in applications where specialized knowledge is a key component of user interactions. The design should ensure seamless integration of these knowledge files, maintaining both the aesthetic appeal and the functional efficiency of the application.<br><br>
 Industry-Specific Uses: For industries like healthcare, finance, or law, where specialized knowledge is vital, these files can greatly enhance the model's performance.<br><br>
+
+# Custodial process:
+Each bot is assigned a custodian to manage its state and field questions. They are the considered a subject matter expert for their given technology and are the sole decider of what content is included in the official model.<br>
+
+admin: The admin will assess possible candidates and grant ownership to the most qualified candidate. The admin is the sole decider of who is the official custodian of a bot but should seek out the opinions of the community before adding or revoking custodianship.<br>
+
+custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your bot. Once you are granted access, duplicate the template folder and configure the files within to reflect the state of your bot.<br>
+
+admin: Once the bot is complete and a link is provided, the admin will update the directory in this file to include the new bot. The admin will then issue and close a pull request to update the main branch with the new model.<br>
+
+revoking custodianship: If a custodian wishes to forfeit custodianship of a bot, we ask that they participate in finding a suitable replacement. Once found, we will grant them access and update the directory to reflect the change of ownership.<br>
+
+revoking adminship: we'll cross that bridge when we come to it 😧
