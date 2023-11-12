@@ -8,6 +8,7 @@ This repository contains the instructions, functions, and knowledge files used t
 - [How does it work?](#how-does-it-work)
 - [Custodial Process](#custodial-process)
 - [Making and Maintaining Bots](#making-and-maintaining-bots)
+- [Are Code GPT bots safe for enterprise use?](#are-code-gpt-bots-safe-for-enterprise-use)
 - [Getting Involved](#getting-involved)
 - ["I don't like reading is there a GPT that will spoonfeed this to me?"](#i-dont-like-reading-is-there-a-gpt-that-will-spoonfeed-this-to-me)
 
@@ -69,6 +70,15 @@ Activity: Once custodianship is granted, you're free to update your bot however 
 Standards: The custodian has the final say in the name and description of a bot but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Flutter development made easy. Maintained by The Hadrio Group at https://github.com/Decron/FlutterGPT"<br><br>
 
 Experimentation: It may be beneficial to create a backup bot to experiment with to avoid disrupting users of the primary bot.<br><br>
+
+Conversation training: For now we ask that you disable conversation training for the models under your purvue. There are pros and cons of leaving it disabled, and the topic can be addressed later if the community believes conversation training is important.<br><br>
+
+# Are Code GPT bots safe for enterprise use?
+  For the most part yes, here are the facts:<br>
+  * We've asked all custodians to disable conversation training. However that setting cannot be verified so it is not reccomended to include information you would not want OpenAI to see. Code GPT does not have access to your conversation history.
+  * Training based on knowledge files and uploaded documents cannot be disabled. Because of this you should not include sensitive material in knowledge files for our bots, and you should not upload sensitive files when using them.
+  * Custodians may create behaviors that send conversation and document data to remote servers. However, unconsented storage of user data is absolutely prohibbited and evidence of intentionally accessing user information will result in irrevocable dismissal from the project.
+  * If you have a custom OpenAI endpoint, rules about conversation and document training may not apply. Talk to your system administrator.
 
 # Getting involved:
 * Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an issue or a discussion post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
