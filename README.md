@@ -58,7 +58,7 @@ revoking adminship: we'll cross that bridge when we come to it 😧
 # Making and maintaining bots:
 Activity: Once custodianship is granted, you're free to update your bot however you see fit. We just ask that you make a reasonable effort to aggregate user requests and improve your model, especially during periods of high activity such as when a model is changed, or the major revision of a language is released.<br><br>
 
-Standards: The custodian has the final say in the name and description of a bot, but we ask that the name is descriptive, and that the description features a link to this repo. For instance: "Flutter development made easy. Maintained by The Hadrio Group at https://github.com/Decron/FlutterGPT"<br><br>
+Standards: The custodian has the final say in the name and description of a bot but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Flutter development made easy. Maintained by The Hadrio Group at https://github.com/Decron/FlutterGPT"<br><br>
 
 Experimentation: It may be beneficial to create a backup bot to experiment with.<br><br>
 
