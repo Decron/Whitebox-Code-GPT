@@ -3,16 +3,6 @@ Repository of instructions for a customized GPT models designed for programming.
 
 This repository contains the instructions, functions, and knowledge files used to build each GPT. As this project evolves, GPTs will be programmed with customized standards guides and actions that extend its utility and improve the function of the base GPT model.<br><br> Our current goals are to define the largest blindspots in the default GPT models and write guides which can be used to improve functionality in those domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"
 
-# Table of Contents
-- [Existing Models](#existing-models)
-- [How does it work?](#how-does-it-work)
-- [Custodial Process](#custodial-process)
-- [Making and Maintaining Bots](#making-and-maintaining-bots)
-- [Are Code GPT bots safe for enterprise use?](#are-code-gpt-bots-safe-for-enterprise-use)
-- [Getting Involved](#getting-involved)
-- ["I don't like reading is there a GPT that will spoonfeed this to me?"](#i-dont-like-reading-is-there-a-gpt-that-will-spoonfeed-this-to-me)
-
-
 # Existing models:
 Git assistant (Decron): https://chat.openai.com/g/g-8z4fiuUqu-git-assistant<br>
 Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br> 
@@ -22,6 +12,15 @@ C# (PrimeEagle): *Coming soon*
 Requesting Custodians for: Python (data science), Rust, Go, Unity.
 
 This project is very new so please excuse the clutter. This is an exciting new opportunity and we're working as fast as possible to accelerate the capabilities of these models.
+
+# Table of Contents
+- [Existing Models](#existing-models)
+- [How does it work?](#how-does-it-work)
+- [Custodial Process](#custodial-process)
+- [Making and Maintaining Bots](#making-and-maintaining-bots)
+- [Are Code GPT bots safe for enterprise use?](#are-code-gpt-bots-safe-for-enterprise-use)
+- [Getting Involved](#getting-involved)
+- ["I don't like reading is there a GPT that will spoonfeed this to me?"](#i-dont-like-reading-is-there-a-gpt-that-will-spoonfeed-this-to-me)
 
 # How does it work?
 1. Background<br>
