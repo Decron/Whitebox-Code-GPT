@@ -3,6 +3,15 @@ Repository of instructions for a customized GPT models designed for programming.
 
 This repository contains the instructions, functions, and knowledge files used to build each GPT. As this project evolves, GPTs will be programmed with customized standards guides and actions that extend its utility and improve the function of the base GPT model.<br><br> Our current goals are to define the largest blindspots in the default GPT models and write guides which can be used to improve functionality in those domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"
 
+# Table of Contents
+- [Existing Models](#existing-models)
+- [How does it work?](#how-does-it-work)
+- [Custodial Process](#custodial-process)
+- [Making and Maintaining Bots](#making-and-maintaining-bots)
+- [Getting Involved](#getting-involved)
+- ["I don't like reading is there a GPT that will spoonfeed this to me?"](#i-dont-like-reading-is-there-a-gpt-that-will-spoonfeed-this-to-me)
+
+
 # Existing models:
 Git assistant (Decron): https://chat.openai.com/g/g-8z4fiuUqu-git-assistant<br>
 Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br> 
@@ -65,5 +74,5 @@ Experimentation: It may be beneficial to create a backup bot to experiment with 
 * Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an issue or a discussion post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
 * Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming bots.
 
-# "I don't like reading isn't there just a GPT that will spoonfeed this to me?"
+# "I don't like reading is there a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
