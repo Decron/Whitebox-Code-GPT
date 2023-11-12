@@ -11,7 +11,7 @@ C# (PrimeEagle): *Coming soon*
 <br><br>
 Requesting Custodians for: Python (data science), Rust, Go, Unity.
 
-This project is very new so please excuse the clutter. This is an exciting new opprotunity and we're working as fast as possible to accelerate the capabilities of these models.
+This project is very new so please excuse the clutter. This is an exciting new opportunity and we're working as fast as possible to accelerate the capabilities of these models.
 
 # How does it work?
 1. Background<br>
