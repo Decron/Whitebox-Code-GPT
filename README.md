@@ -61,5 +61,9 @@ Standards: The custodian has the final say in the name and description of a bot 
 
 Experimentation: It may be beneficial to create a backup bot to experiment with to avoid disrupting users of the primary bot.<br><br>
 
+# Getting involved:
+* Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an issue or a discussion post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
+* Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming bots.
+
 # "I don't like reading isn't there just a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
