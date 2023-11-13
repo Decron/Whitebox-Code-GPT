@@ -1,15 +1,22 @@
 # Code GPT
-Repository of instructions for a customized GPT models designed for programming.
+Repository of instructions for creating next-gen programming assistants via custom GPTs.
 
-This repository contains the instructions, functions, and knowledge files used to build each GPT. As this project evolves, GPTs will be programmed with customized standards guides and actions that extend its utility and improve the function of the base GPT model.<br><br> Our current goals are to define the largest blindspots in the default GPT models and write guides which can be used to improve functionality in those domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"
+This repository contains the instructions, functions, and knowledge files used to build each programming assistant. As this project evolves, GPTs will be programmed with customized standards guides and actions that extend its utility and improve the function of the base GPT model.<br><br> Our current goals are to define the largest blindspots in default GPT4 and write guides to improve functionality in specific domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
+**If you are experiencing an issue with one of our assistants**: kindly include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
+*This project is geared to optimize assistants for the custom GPT marketplace provided by OpenAI. If you find that our knowledge files transfer effectively to other models, we would be very interested in hearing more about it.*
 
 # Existing models:
-Git assistant (Decron): https://chat.openai.com/g/g-8z4fiuUqu-git-assistant<br>
-Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br> 
-Python GPT (Decron): https://chat.openai.com/g/g-c188mmoYi-python-gpt<br>
-C# (PrimeEagle): *Coming soon*
+You can access an instance of all live bots hosted on ChatGPT. All models are 100% free to use for ChatGPT premium users.<br>
+* Git assistant (Decron): https://chat.openai.com/g/g-8z4fiuUqu-git-assistant<br>
+* Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br> 
+* Python GPT (Decron): https://chat.openai.com/g/g-c188mmoYi-python-gpt<br>
+* C# (PrimeEagle): *Coming soon*
 <br><br>
-Requesting Custodians for: Python (data science), Rust, Go, Unity.
+
+# Partnered models:
+* GPT Instruction Builder: https://chat.openai.com/g/g-VPSbVqjy1-system-instruction-constructor
+
+  *If you would like to partner with Code GPT, fill out our form here: https://forms.gle/fnwS3xjWkRy57x1B9*
 
 This project is very new so please excuse the clutter. This is an exciting new opportunity and we're working as fast as possible to accelerate the capabilities of these models.
 
@@ -74,9 +81,9 @@ Conversation training: For now we ask that you disable conversation training for
 
 # Are Code GPT bots safe for enterprise use?
   For the most part yes, here are the facts:<br>
-  * We've asked all custodians to disable conversation training. However that setting cannot be verified so it is not reccomended to include information you would not want OpenAI to see. Code GPT does not have access to your conversation history.
+  * We've asked all custodians to disable conversation training. This setting cannot be truly verified so it is not reccomended to include information you would not want OpenAI to see. Code GPT does not have access to your conversation history.
   * Training based on knowledge files and uploaded documents cannot be disabled. Because of this you should not include sensitive material in knowledge files for our bots, and you should not upload sensitive files when using them.
-  * Custodians may create behaviors that send conversation and document data to remote servers. However, unconsented storage of user data is absolutely prohibbited and evidence of intentionally accessing user information will result in irrevocable dismissal from the project.
+  * unconsented storage of user data by model creators is absolutely prohibbited and will lead to irrevocable dismissal from the project.
   * If you have a custom OpenAI endpoint, rules about conversation and document training may not apply. Talk to your system administrator.
 
 # Getting involved:
@@ -85,3 +92,7 @@ Conversation training: For now we ask that you disable conversation training for
 
 # "I don't like reading is there a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
+
+# Sponsors
+ **We are actively seeking organizations to sponsor this project in order to deliver the best possible programming assistants. If you're interested in sponsoring us please send all inquiries to hadriogroup@gmail.com**<br><br>
+ *This project was brought to you by The Hadrio Group. We are a San Francisco based community that focuses on quality and data stewardship in AI.*
