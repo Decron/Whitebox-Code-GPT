@@ -65,7 +65,7 @@ general: integrating enhanced GPT capabilities will significantly improve user e
 Industry-Specific Uses: For industries like healthcare, finance, or law, where specialized knowledge is vital, these files can greatly enhance the model's performance.<br><br>
 
 # Custodial process:
-Each assistant is assigned a custodian to manage its state and field questions. They are the considered a subject matter expert for their given technology and are the sole decider of what content is included in the official model.<br>
+Each assistant is assigned a custodian to manage its state and field questions. They are a subject matter expert for their given technology and are the sole decider of what content is included in the official model.<br>
 
 admin: The admin will assess possible candidates and grant ownership to the most qualified candidate. The admin is the sole decider of who is the official custodian of a assistant but should seek out the opinions of the community before adding or revoking custodianship.<br>
 
