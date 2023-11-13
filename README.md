@@ -96,12 +96,16 @@ Conversation training: For now we ask that you disable conversation training for
   * If you would like our assistance creating personalized assistants for your enterprise, please message us at hadriogroup@gmail.com.
 
 # Getting involved:
+**Contributing**<br>
 * Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an issue or a discussion post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
 * Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming assistants.
 * If you're reading this we want to hear your use case. What annoys you most about programming assistants? Go open a discussion and we'll do our best to fix it.
 * If you don't have access to ChatGPT premium, we'd love to collaborate on other applications for our knowledge files.
-* If you'd like to hear announcements about new assistant releases and partnered agents, follow us for free on [Substack](https://substack.com/@thehadriogroup?utm_source=edit-profile-page)
+* If you'd like to hear announcements about new assistant releases and partnered agents, follow us for free on [Substack](https://substack.com/@thehadriogroup?utm_source=edit-profile-page)<br><br>
+
+**Support**<br>
 * Whitebox is maintained entirely by volunteers. If you would like to donate to the project, see our [Donation Link](https://paypal.me/Hadrio?country.x=US&locale.x=en_US)
+* If you support our mission (or just like the Whitebox logo), we have a merch page [here](https://www.redbubble.com/i/sweatshirt/Hadrio-Whitebox-by-JimmyDonovan/147231741.LEP2X)
 
 # "I don't like reading is there a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
