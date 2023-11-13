@@ -8,7 +8,7 @@ This repository contains the instructions, functions, and knowledge files used t
 *This project is geared to optimize assistants for the custom GPT marketplace provided by OpenAI. If you find that our knowledge files transfer effectively to other models, we would be very interested in hearing more about it.*
 
 # Existing models:
-You can access an instance of all live bots hosted on ChatGPT. All models are 100% free to use for ChatGPT premium users.<br>
+You can access an instance of all live assistants hosted on ChatGPT. All models are 100% free to use for ChatGPT premium users.<br>
 * Git assistant (Decron): https://chat.openai.com/g/g-8z4fiuUqu-git-assistant<br>
 * Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br>
 * Firebase GPT (Decron): https://chat.openai.com/g/g-1PHZ3Y82z-firebase-gpt<br>
@@ -33,15 +33,15 @@ This project is very new so please excuse the clutter. This is an exciting new o
 - [Existing Models](#existing-models)
 - [How does it work?](#how-does-it-work)
 - [Custodial Process](#custodial-process)
-- [Making and Maintaining Bots](#making-and-maintaining-bots)
-- [Are Code GPT bots safe for enterprise use?](#are-code-gpt-bots-safe-for-enterprise-use)
+- [Making and Maintaining Assistants](#making-and-maintaining-assistants)
+- [Are Code GPT assistants safe for enterprise use?](#are-code-gpt-assistants-safe-for-enterprise-use)
 - [Getting Involved](#getting-involved)
 - ["I don't like reading is there a GPT that will spoonfeed this to me?"](#i-dont-like-reading-is-there-a-gpt-that-will-spoonfeed-this-to-me)
 
 # How does it work?
 0. What are Custom GPTs?<br>
-   Custom GPT's allow experts to collaborate and condense their knowledge into a single chatbot powered by GPT4. You can read OpenAI's announcement here:  https://openai.com/blog/introducing-gpts<br>
-   Because they're hosted on ChatGPT, all Code-GPT chatbots can be used freely and require no installation (provided the user has a ChatGPT premium account, for now.)
+   Custom GPT's allow experts to collaborate and condense their knowledge into a single assistant powered by GPT4. You can read OpenAI's announcement here:  https://openai.com/blog/introducing-gpts<br>
+   Because they're hosted on ChatGPT, all Code-GPT assistants can be used freely and require no installation (provided the user has a ChatGPT premium account, for now.)
    
 2. Background<br>
 AI models can accelerate a developer's abilities by suggesting improvments and providing context about technical details. A key flaw however is that they are not continuously up to date on best practices for every domain. Because of this, all models have blind spots that limit their full potential. This project aims to combat those flaws by creating knowledge files and instructions that are purpose-designed to fill the gaps of a model's knowledge.
@@ -67,37 +67,37 @@ general: integrating enhanced GPT capabilities will significantly improve user e
 Industry-Specific Uses: For industries like healthcare, finance, or law, where specialized knowledge is vital, these files can greatly enhance the model's performance.<br><br>
 
 # Custodial process:
-Each bot is assigned a custodian to manage its state and field questions. They are the considered a subject matter expert for their given technology and are the sole decider of what content is included in the official model.<br>
+Each assistant is assigned a custodian to manage its state and field questions. They are the considered a subject matter expert for their given technology and are the sole decider of what content is included in the official model.<br>
 
-admin: The admin will assess possible candidates and grant ownership to the most qualified candidate. The admin is the sole decider of who is the official custodian of a bot but should seek out the opinions of the community before adding or revoking custodianship.<br>
+admin: The admin will assess possible candidates and grant ownership to the most qualified candidate. The admin is the sole decider of who is the official custodian of a assistant but should seek out the opinions of the community before adding or revoking custodianship.<br>
 
-custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your bot. In the issue, comment links to chat instances that demonstrate effectiveness of the bot. Once you are granted access, duplicate the template folder and configure the files within to reflect the state of your bot.<br>
+custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your assistant. In the issue, comment links to chat instances that demonstrate effectiveness of the assistant. Once you are granted access, duplicate the template folder and configure the files within to reflect the state of your assistant.<br>
 
-admin: Once the bot is complete and a link is provided, the admin will update the directory in this file to include the new bot. The admin will then issue and close a pull request to update the main branch with the new model.<br>
+admin: Once the assistant is complete and a link is provided, the admin will update the directory in this file to include the new assistant. The admin will then issue and close a pull request to update the main branch with the new model.<br>
 
-revoking custodianship: If a custodian wishes to forfeit custodianship of a bot, we ask that they participate in finding a suitable replacement. Once found, we will grant them access and update the directory to reflect the change of ownership.<br>
+revoking custodianship: If a custodian wishes to forfeit custodianship of an assistant, we ask that they participate in finding a suitable replacement. Once found, we will grant them access and update the directory to reflect the change of ownership.<br>
 
 revoking adminship: we'll cross that bridge when we come to it 😧
 
-# Making and maintaining bots:
-Activity: Once custodianship is granted, you're free to update your bot however you see fit. We just ask that you make a reasonable effort to seek and aggregate user requests and improve your bot, especially during periods of high activity such as when OpenAI updates their models, or a new major revision of a language is released.<br><br>
+# Making and maintaining assistants:
+Activity: Once custodianship is granted, you're free to update your assistant however you see fit. We just ask that you make a reasonable effort to seek and aggregate user requests and improve your assistant, especially during periods of high activity such as when OpenAI updates their models, or a new major revision of a language is released.<br><br>
 
-Standards: The custodian has the final say in the name and description of a bot but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Flutter development made easy. Maintained by The Hadrio Group at https://github.com/Decron/FlutterGPT"<br><br>
+Standards: The custodian has the final say in the name and description of a assistant but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Flutter development made easy. Maintained by The Hadrio Group at https://github.com/Decron/FlutterGPT"<br><br>
 
-Experimentation: It may be beneficial to create a backup bot to experiment with to avoid disrupting users of the primary bot.<br><br>
+Experimentation: It may be beneficial to create a backup assistant to experiment with to avoid disrupting users of the primary assistant.<br><br>
 
 Conversation training: For now we ask that you disable conversation training for the models under your purvue. There are pros and cons of leaving it disabled, and the topic can be addressed later if the community believes conversation training is important.<br><br>
 
-# Are Code GPT bots safe for enterprise use?
+# Are Code GPT assistants safe for enterprise use?
   For the most part yes, here are the facts:<br>
   * We've asked all custodians to disable conversation training. This setting cannot be truly verified so it is not reccomended to include information you would not want OpenAI to see. Code GPT does not have access to your conversation history.
-  * Training based on knowledge files and uploaded documents cannot be disabled. Because of this you should not include sensitive material in knowledge files for our bots, and you should not upload sensitive files when using them.
+  * Training based on knowledge files and uploaded documents cannot be disabled. Because of this you should not include sensitive material in knowledge files for our assistants, and you should not upload sensitive files when using them.
   * unconsented storage of user data by model creators is absolutely prohibbited and will lead to irrevocable dismissal from the project.
   * If you have a custom OpenAI endpoint, rules about conversation and document training may not apply. Talk to your system administrator.
 
 # Getting involved:
 * Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an issue or a discussion post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
-* Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming bots.
+* Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming assistants.
 * If you're reading this we want to hear your use case. What annoys you most about programming assistants? Go open a discussion and we'll do our best to fix it.
 
 # "I don't like reading is there a GPT that will spoonfeed this to me?"
