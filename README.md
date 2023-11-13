@@ -1,4 +1,4 @@
-# Code GPT
+# Welcome to Whitebox
 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case:<br> 
 
 Repository of instructions for creating next-gen programming assistants via custom GPTs.
@@ -25,14 +25,14 @@ Industry-specific:
 # Partnered models:
 * [GPT Instruction Builder](https://chat.openai.com/g/g-VPSbVqjy1-system-instruction-constructor)
 
-  *If you would like to partner with Code GPT, fill out our form [here](https://forms.gle/fnwS3xjWkRy57x1B9)*
+  *If you would like to partner with Whitebox, fill out our form [here](https://forms.gle/fnwS3xjWkRy57x1B9)*
 
 # Table of Contents
 - [Existing Models](#existing-models)
 - [How does it work?](#how-does-it-work)
 - [Custodial Process](#custodial-process)
 - [Making and Maintaining Assistants](#making-and-maintaining-assistants)
-- [Are Code GPT assistants safe for enterprise use?](#are-code-gpt-assistants-safe-for-enterprise-use)
+- [Are Whitebox assistants safe for enterprise use?](#are-code-gpt-assistants-safe-for-enterprise-use)
 - [Getting Involved](#getting-involved)
 - ["I don't like reading is there a GPT that will spoonfeed this to me?"](#i-dont-like-reading-is-there-a-gpt-that-will-spoonfeed-this-to-me)
 
@@ -86,9 +86,9 @@ Experimentation: It may be beneficial to create a backup assistant to experiment
 
 Conversation training: For now we ask that you disable conversation training for the models under your purvue. There are pros and cons of leaving it disabled, and the topic can be addressed later if the community believes conversation training is important.<br><br>
 
-# Are Code GPT assistants safe for enterprise use?
+# Are Whitebox assistants safe for enterprise use?
   For the most part yes, here are the facts:<br>
-  * We've asked all custodians to disable conversation training. This setting cannot be truly verified so it is not reccomended to include information you would not want OpenAI to see. Code GPT does not have access to your conversation history.
+  * We've asked all custodians to disable conversation training. This setting cannot be truly verified so it is not reccomended to include information you would not want OpenAI to see. Whitebox does not have access to your conversation history.
   * Training based on knowledge files and uploaded documents cannot be disabled. Because of this you should not include sensitive material in knowledge files for our assistants, and you should not upload sensitive files when using them.
   * unconsented storage of user data by model creators is absolutely prohibbited and will lead to irrevocable dismissal from the project.
   * If you have a custom OpenAI endpoint, rules about conversation and document training may not apply. Talk to your system administrator.
