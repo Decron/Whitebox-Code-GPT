@@ -1,10 +1,11 @@
 # Welcome to Whitebox
 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case:<br> 
 
-Repository of instructions for creating next-gen programming assistants via custom GPTs.
+Our goal is to accelerate the capabilities of free programming assistants with GPT builder. In this repository you'll find instructions & knowledge files for creating next-gen programming assistants.
 
-This repository contains the instructions, functions, and knowledge files used to build each programming assistant. As this project evolves, GPTs will be programmed with customized standards guides and actions that extend its utility and improve the function of the base GPT model.<br><br> Our current goals are to define the largest blindspots in default GPT4 and write guides to improve functionality in specific domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
-The GPT builder platform is less than 2 weeks old so try to temper expectations when using our assistants. With time and collaboration we will continuously improve their performance and create something really powerful. For now the most important thing is to define the blind spots given to the assistants by the base model so we can create guidance to counteract them.<br><br>
+As this project evolves, GPTs will be programmed with customized knowledge files and actions that extend its utility and improve the function of the base GPT model.<br><br>
+Our current goals are to define the largest blindspots in default GPT4 and create assistants to improve functionality in specific domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
+The GPT builder platform is less than 2 weeks old so try to temper expectations when using our assistants. With time and collaboration we will continuously improve their performance and create something truly powerful. For now the most important thing is to define the blind spots of the base model so we can create guidance to counteract them.<br><br>
 **If you are experiencing an issue with one of our assistants**: kindly include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
 
 # Existing models:
@@ -32,7 +33,7 @@ Industry-specific:
 - [How does it work?](#how-does-it-work)
 - [Custodial Process](#custodial-process)
 - [Making and Maintaining Assistants](#making-and-maintaining-assistants)
-- [Are Whitebox assistants safe for enterprise use?](#are-code-gpt-assistants-safe-for-enterprise-use)
+- [Are Whitebox assistants safe for enterprise use?](#are-whitebox-assistants-safe-for-enterprise-use)
 - [Getting Involved](#getting-involved)
 - ["I don't like reading is there a GPT that will spoonfeed this to me?"](#i-dont-like-reading-is-there-a-gpt-that-will-spoonfeed-this-to-me)
 
@@ -89,15 +90,17 @@ Conversation training: For now we ask that you disable conversation training for
 # Are Whitebox assistants safe for enterprise use?
   For the most part yes, here are the facts:<br>
   * We've asked all custodians to disable conversation training. This setting cannot be truly verified so it is not reccomended to include information you would not want OpenAI to see. Whitebox does not have access to your conversation history.
-  * Training based on knowledge files and uploaded documents cannot be disabled. Because of this you should not include sensitive material in knowledge files for our assistants, and you should not upload sensitive files when using them.
-  * unconsented storage of user data by model creators is absolutely prohibbited and will lead to irrevocable dismissal from the project.
+  * Training based on knowledge files and uploaded documents cannot be disabled with GPT builder. Because of this you should not include sensitive material in knowledge files for our assistants, and you should not upload sensitive files when using them.
+  * Unconsented storage of user data by model creators is absolutely prohibbited and will lead to irrevocable dismissal from the project.
   * If you have a custom OpenAI endpoint, rules about conversation and document training may not apply. Talk to your system administrator.
+  * If you would like our assistance creating personalized assistants for your enterprise, please message us at hadriogroup@gmail.com.
 
 # Getting involved:
 * Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an issue or a discussion post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
 * Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming assistants.
 * If you're reading this we want to hear your use case. What annoys you most about programming assistants? Go open a discussion and we'll do our best to fix it.
 * If you'd like to hear announcements about new assistant releases and partnered agents, follow us for free on [Substack](https://substack.com/@thehadriogroup?utm_source=edit-profile-page)
+* Whitebox is maintained entirely by volunteers. If you would like to donate to the project, see our [Donation Link](https://paypal.me/Hadrio?country.x=US&locale.x=en_US)
 
 # "I don't like reading is there a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
