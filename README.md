@@ -16,6 +16,10 @@ You can access an instance of all live bots hosted on ChatGPT. All models are 10
 * C# (PrimeEagle): *Coming soon*
 <br><br>
 
+Industry-specific:
+  * Bioinformatics (3jame): *Coming soon*
+<br><br>
+
 # Partnered models:
 * GPT Instruction Builder: https://chat.openai.com/g/g-VPSbVqjy1-system-instruction-constructor
 
