@@ -33,7 +33,11 @@ This project is very new so please excuse the clutter. This is an exciting new o
 - ["I don't like reading is there a GPT that will spoonfeed this to me?"](#i-dont-like-reading-is-there-a-gpt-that-will-spoonfeed-this-to-me)
 
 # How does it work?
-1. Background<br>
+0. What are Custom GPTs?<br>
+   Custom GPT's allow experts to collaborate and condense their knowledge into a single chatbot powered by GPT4. You can read OpenAI's announcement here:  https://openai.com/blog/introducing-gpts<br>
+   Because they're hosted on ChatGPT, all Code-GPT chatbots can be used freely and require no installation (provided the user has a ChatGPT premium account, for now.)
+   
+2. Background<br>
 AI models can accelerate a developer's abilities by suggesting improvments and providing context about technical details. A key flaw however is that they are not continuously up to date on best practices for every domain. Because of this, all models have blind spots that limit their full potential. This project aims to combat those flaws by creating knowledge files and instructions that are purpose-designed to fill the gaps of a model's knowledge.
 
 1. Purpose and Functionality<br>
@@ -99,4 +103,4 @@ Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
 
 # Sponsors
  **We are actively seeking organizations to sponsor this project in order to deliver the best possible programming assistants. If you're interested in sponsoring us please send all inquiries to hadriogroup@gmail.com**<br><br>
- *This project was brought to you by The Hadrio Group. We are a San Francisco based community that focuses on quality and data stewardship in AI.*
+ *This project was brought to you by The Hadrio Group. We are a San Francisco based community of MIT and UC Berkeley alumni that focuses on quality and data stewardship in AI.*
