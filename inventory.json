@@ -1,0 +1,34 @@
+{
+    "Flutter": {
+        "description": "General purpose Flutter assistant.",
+        "link": "https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt"
+    },
+    "C++": {
+        "description": "General purpose C++ assistant.",
+        "link": "https://chat.openai.com/g/g-1PHZ3Y82z-firebase-gpt"
+    },
+    "Python": {
+        "description": "General purpose Python assistant.",
+        "link": "https://chat.openai.com/g/g-c188mmoYi-python-gpt"
+    },
+    "Git": {
+        "description": "General purpose Git assistant.",
+        "link": "https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt"
+    },
+    "Node.js": {
+        "description": "Javascript assistant specialized for node.js",
+        "link": "https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt"
+    },
+    "Firebase": {
+        "description": "Designed to assist with the back end service Firebase.",
+        "link": "https://chat.openai.com/g/g-1PHZ3Y82z-firebase-gpt"
+    },
+    "Emoji GPT": {
+        "description": "Just for fun :)",
+        "link": "https://chat.openai.com/g/g-mvOpDRXMz-an-emoji-gpt"
+    },
+    "Repo Assistant": {
+        "description": "All you need to know about the open source Code GPT project repo at https://github.com/Decron/Code-GPT",
+        "link": "https://chat.openai.com/g/g-mvOpDRXMz-an-emoji-gpt"
+    },
+}
