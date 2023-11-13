@@ -10,6 +10,7 @@ You can access an instance of all live bots hosted on ChatGPT. All models are 10
 * Git assistant (Decron): https://chat.openai.com/g/g-8z4fiuUqu-git-assistant<br>
 * Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br> 
 * Python GPT (Decron): https://chat.openai.com/g/g-c188mmoYi-python-gpt<br>
+* Node.js GPT (Decron): https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt -- up for adoption<br>
 * C# (PrimeEagle): *Coming soon*
 <br><br>
 
