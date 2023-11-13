@@ -1,21 +1,22 @@
 # Code GPT
-Our inventory assistant will deliver a link to the best assistant for your use case:<br> https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant
+Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case:<br> 
 
 Repository of instructions for creating next-gen programming assistants via custom GPTs.
 
 This repository contains the instructions, functions, and knowledge files used to build each programming assistant. As this project evolves, GPTs will be programmed with customized standards guides and actions that extend its utility and improve the function of the base GPT model.<br><br> Our current goals are to define the largest blindspots in default GPT4 and write guides to improve functionality in specific domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
+The GPT builder platform is less than 2 weeks old so try to temper expectations when using our assistants. With time and collaboration we will continuously improve their performance and create something really powerful. For now the most important thing is to define the blind spots given to the assistants by the base model so we can create guidance to counteract them.<br><br>
 **If you are experiencing an issue with one of our assistants**: kindly include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
 *This project is geared to optimize assistants for the custom GPT marketplace provided by OpenAI. If you find that our knowledge files transfer effectively to other models, we would be very interested in hearing more about it.*
 
 # Existing models:
 You can access an instance of all live assistants hosted on ChatGPT. All models are 100% free to use for ChatGPT premium users.<br>
-* Git assistant (Decron): https://chat.openai.com/g/g-8z4fiuUqu-git-assistant<br>
-* Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br>
-* Firebase GPT (Decron): https://chat.openai.com/g/g-1PHZ3Y82z-firebase-gpt<br>
-* Python GPT (Decron): https://chat.openai.com/g/g-c188mmoYi-python-gpt<br>
-* Node.js GPT (Decron): https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt -- up for adoption<br>
-* C++ GPT (Decron): https://chat.openai.com/g/g-8boxKPzCP-c-gpt -- up for adoption<br>
-* C# (PrimeEagle): *Coming soon*
+* [Git assistant (Decron)](https://chat.openai.com/g/g-8z4fiuUqu-git-assistant)<br>
+* [Flutter GPT (Decron)](https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt)<br>
+* [Firebase GPT (Decron)](https://chat.openai.com/g/g-1PHZ3Y82z-firebase-gpt)<br>
+* [Python GPT (Decron)](https://chat.openai.com/g/g-c188mmoYi-python-gpt)<br>
+* [Node.js GPT (Decron)](https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt) -- up for adoption<br>
+* [C++ GPT (Decron)](https://chat.openai.com/g/g-8boxKPzCP-c-gpt) -- up for adoption<br>
+* C# (PrimeEagle) *Coming soon*
 <br><br>
 
 Industry-specific:
@@ -23,11 +24,9 @@ Industry-specific:
 <br><br>
 
 # Partnered models:
-* GPT Instruction Builder: https://chat.openai.com/g/g-VPSbVqjy1-system-instruction-constructor
+* [GPT Instruction Builder](https://chat.openai.com/g/g-VPSbVqjy1-system-instruction-constructor)
 
-  *If you would like to partner with Code GPT, fill out our form here: https://forms.gle/fnwS3xjWkRy57x1B9*
-
-This project is very new so please excuse the clutter. This is an exciting new opportunity and we're working as fast as possible to accelerate the capabilities of these models.
+  *If you would like to partner with Code GPT, fill out our form [here](https://forms.gle/fnwS3xjWkRy57x1B9)*
 
 # Table of Contents
 - [Existing Models](#existing-models)
@@ -40,7 +39,7 @@ This project is very new so please excuse the clutter. This is an exciting new o
 
 # How does it work?
 0. What are Custom GPTs?<br>
-   Custom GPT's allow experts to collaborate and condense their knowledge into a single assistant powered by GPT4. You can read OpenAI's announcement here:  https://openai.com/blog/introducing-gpts<br>
+   Custom GPT's allow experts to collaborate and condense their knowledge into a single assistant powered by GPT4. You can read OpenAI's announcement [here](https://openai.com/blog/introducing-gpts)<br>
    Because they're hosted on ChatGPT, all Code-GPT assistants can be used freely and require no installation (provided the user has a ChatGPT premium account, for now.)
    
 2. Background<br>
@@ -99,6 +98,7 @@ Conversation training: For now we ask that you disable conversation training for
 * Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an issue or a discussion post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
 * Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming assistants.
 * If you're reading this we want to hear your use case. What annoys you most about programming assistants? Go open a discussion and we'll do our best to fix it.
+* If you'd like to hear announcements about new assistant releases and partnered agents, follow us for free on [Substack](https://substack.com/@thehadriogroup?utm_source=edit-profile-page)
 
 # "I don't like reading is there a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
