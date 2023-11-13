@@ -8,7 +8,8 @@ This repository contains the instructions, functions, and knowledge files used t
 # Existing models:
 You can access an instance of all live bots hosted on ChatGPT. All models are 100% free to use for ChatGPT premium users.<br>
 * Git assistant (Decron): https://chat.openai.com/g/g-8z4fiuUqu-git-assistant<br>
-* Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br> 
+* Flutter GPT (Decron): https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt<br>
+* Firebase GPT (Decron): https://chat.openai.com/g/g-1PHZ3Y82z-firebase-gpt<br>
 * Python GPT (Decron): https://chat.openai.com/g/g-c188mmoYi-python-gpt<br>
 * Node.js GPT (Decron): https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt -- up for adoption<br>
 * C# (PrimeEagle): *Coming soon*
@@ -90,6 +91,7 @@ Conversation training: For now we ask that you disable conversation training for
 # Getting involved:
 * Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an issue or a discussion post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
 * Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming bots.
+* If you're reading this we want to hear your use case. What annoys you most about programming assistants? Go open a discussion and we'll do our best to fix it.
 
 # "I don't like reading is there a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
