@@ -1,4 +1,6 @@
 # Code GPT
+Our inventory assistant will deliver a link to the best assistant for your use case:<br> https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant
+
 Repository of instructions for creating next-gen programming assistants via custom GPTs.
 
 This repository contains the instructions, functions, and knowledge files used to build each programming assistant. As this project evolves, GPTs will be programmed with customized standards guides and actions that extend its utility and improve the function of the base GPT model.<br><br> Our current goals are to define the largest blindspots in default GPT4 and write guides to improve functionality in specific domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
