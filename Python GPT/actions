@@ -1,1 +1,56 @@
+!! In progress. This file is not live yet
 
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "GitHub Code Repository Data",
+    "description": "Accesses code examples from the specified GitHub repository.",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.github.com"
+    }
+  ],
+  "paths": {
+    "/repos/{owner}/{repo}/contents/{path}": {
+      "get": {
+        "description": "Retrieve file content from a GitHub repository",
+        "operationId": "GetRepoContent",
+        "parameters": [
+          {
+            "name": "owner",
+            "in": "path",
+            "description": "Owner of the repository",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "repo",
+            "in": "path",
+            "description": "Repository name",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "path",
+            "in": "path",
+            "description": "File path within the repository",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
