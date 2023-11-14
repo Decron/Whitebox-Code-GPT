@@ -1,0 +1,53 @@
+{
+  "characterClasses": {
+    "dot": "Matches any character except newline, unless DOTALL mode is set",
+    "word": "\\w - Matches any word character (alphanumeric & underscore)",
+    "nonWord": "\\W - Matches any non-word character",
+    "digit": "\\d - Matches any digit",
+    "nonDigit": "\\D - Matches any non-digit character",
+    "whitespace": "\\s - Matches any whitespace character (spaces, tabs, line breaks)",
+    "nonWhitespace": "\\S - Matches any non-whitespace character"
+  },
+  "quantifiers": {
+    "zeroOrMore": "* - Matches 0 or more repetitions",
+    "oneOrMore": "+ - Matches 1 or more repetitions",
+    "zeroOrOne": "? - Matches 0 or 1 repetition",
+    "exact": "{n} - Matches exactly n occurrences",
+    "range": "{n,m} - Matches between n and m occurrences",
+    "greedy": "By default, quantifiers are greedy",
+    "nonGreedy": "*?, +?, ??, {n,m}? - Non-greedy (lazy) quantifiers"
+  },
+  "anchorsAndBoundaries": {
+    "beginningOfString": "^ - Matches the beginning of a string or line in MULTILINE mode",
+    "endOfString": "$ - Matches the end of a string or line in MULTILINE mode",
+    "wordBoundary": "\\b - Matches a word boundary",
+    "nonWordBoundary": "\\B - Matches a non-word boundary"
+  },
+  "groupsAndLookaround": {
+    "capturingGroup": "(...) - Captures the matched group",
+    "nonCapturingGroup": "(?:...) - Non-capturing group",
+    "positiveLookahead": "(?=...) - Positive lookahead",
+    "negativeLookahead": "(?!...) - Negative lookahead",
+    "positiveLookbehind": "(?<=...) - Positive lookbehind",
+    "negativeLookbehind": "(?<!...) - Negative lookbehind",
+    "namedGroup": "(?P<name>...) - Named capturing group"
+  },
+  "specialCharacters": {
+    "backslash": "\\ - Escapes a special character",
+    "caret": "^ - Inside a character set, negates the set",
+    "pipe": "| - Alternation, matches either the pattern before or after the pipe",
+    "squareBrackets": "[] - Character set, matches any character within the brackets"
+  },
+  "flags": {
+    "ignoreCase": "re.IGNORECASE or re.I - Case insensitive search",
+    "multiline": "re.MULTILINE or re.M - Multiline search",
+    "dotAll": "re.DOTALL or re.S - Dot matches all, including newline",
+    "unicode": "re.UNICODE or re.U - Unicode matching",
+    "verbose": "re.VERBOSE or re.X - Allows verbose regexps"
+  },
+  "additionalFeatures": {
+    "conditionalPatterns": "(?(id/name)yes-pattern|no-pattern) - Conditional patterns",
+    "backReferences": "\\1, \\2, ... - Back references to capturing groups",
+    "escapeSequences": "\\A, \\Z, \\z - Start and end of string anchors"
+  }
+}

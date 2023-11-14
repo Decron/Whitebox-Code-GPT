@@ -1,0 +1,58 @@
+{
+  "characterClasses": {
+    "dot": "Matches any character except newline, unless Singleline mode is set",
+    "word": "\\w - Matches any word character (alphanumeric & underscore)",
+    "nonWord": "\\W - Matches any non-word character",
+    "digit": "\\d - Matches any digit",
+    "nonDigit": "\\D - Matches any non-digit character",
+    "whitespace": "\\s - Matches any whitespace character (spaces, tabs, line breaks)",
+    "nonWhitespace": "\\S - Matches any non-whitespace character"
+  },
+  "quantifiers": {
+    "zeroOrMore": "* - Matches 0 or more repetitions",
+    "oneOrMore": "+ - Matches 1 or more repetitions",
+    "zeroOrOne": "? - Matches 0 or 1 repetition",
+    "exact": "{n} - Matches exactly n occurrences",
+    "range": "{n,m} - Matches between n and m occurrences",
+    "greedy": "By default, quantifiers are greedy",
+    "lazy": "*?, +?, ??, {n,m}? - Lazy (non-greedy) quantifiers"
+  },
+  "anchorsAndBoundaries": {
+    "beginningOfString": "^ - Matches the beginning of a string",
+    "endOfString": "$ - Matches the end of a string",
+    "wordBoundary": "\\b - Matches a word boundary",
+    "nonWordBoundary": "\\B - Matches a non-word boundary",
+    "beginningOfText": "\\A - Matches the beginning of the text",
+    "endOfText": "\\Z - Matches the end of the text or newline at the end",
+    "absoluteEndOfText": "\\z - Matches the absolute end of the text"
+  },
+  "groupsAndLookaround": {
+    "capturingGroup": "(...) - Captures the matched group",
+    "nonCapturingGroup": "(?:...) - Non-capturing group",
+    "positiveLookahead": "(?=...) - Positive lookahead",
+    "negativeLookahead": "(?!...) - Negative lookahead",
+    "positiveLookbehind": "(?<=...) - Positive lookbehind",
+    "negativeLookbehind": "(?<!...) - Negative lookbehind",
+    "namedGroup": "(?<name>...) - Named capturing group",
+    "balancingGroup": "(?<name1-name2>...) - Balancing group"
+  },
+  "specialCharacters": {
+    "backslash": "\\ - Escapes a special character",
+    "caret": "^ - Inside a character set, negates the set",
+    "pipe": "| - Alternation, matches either the pattern before or after the pipe",
+    "squareBrackets": "[] - Character set, matches any character within the brackets"
+  },
+  "flags": {
+    "ignoreCase": "IgnoreCase - Case insensitive matching",
+    "multiline": "Multiline - ^ and $ match start and end of a line",
+    "singleLine": "Singleline - Dot matches all, including newline",
+    "explicitCapture": "ExplicitCapture - Only named groups are captured",
+    "ignorePatternWhitespace": "IgnorePatternWhitespace - Ignores whitespace and comments in the pattern",
+    "rightToLeft": "RightToLeft - Search proceeds from right to left"
+  },
+  "additionalFeatures": {
+    "backReferences": "\\1, \\2, ... - Back references to capturing groups",
+    "conditionalPatterns": "(?(expression)yes|no) - Conditional patterns",
+    "inlineOptions": "(?imnsx-imnsx) - Inline options to turn on/off flags within the pattern"
+  }
+}

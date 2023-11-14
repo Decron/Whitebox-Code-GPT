@@ -1,0 +1,57 @@
+{
+  "characterClasses": {
+    "dot": "Matches any character except newline (or any character if DOTALL mode is set)",
+    "word": "\\w - Matches any word character (alphanumeric & underscore)",
+    "nonWord": "\\W - Matches any non-word character",
+    "digit": "\\d - Matches any digit",
+    "nonDigit": "\\D - Matches any non-digit character",
+    "whitespace": "\\s - Matches any whitespace character",
+    "nonWhitespace": "\\S - Matches any non-whitespace character"
+  },
+  "quantifiers": {
+    "zeroOrMore": "* - Matches 0 or more repetitions",
+    "oneOrMore": "+ - Matches 1 or more repetitions",
+    "zeroOrOne": "? - Matches 0 or 1 repetition",
+    "exact": "{n} - Matches exactly n occurrences",
+    "range": "{n,m} - Matches between n and m occurrences",
+    "greedy": "By default, quantifiers are greedy",
+    "lazy": "*?, +?, ??, {n,m}? - Lazy quantifiers"
+  },
+  "anchorsAndBoundaries": {
+    "beginningOfString": "^ - Matches the beginning of a string",
+    "endOfString": "$ - Matches the end of a string",
+    "wordBoundary": "\\b - Matches a word boundary",
+    "nonWordBoundary": "\\B - Matches a non-word boundary"
+  },
+  "groupsAndLookaround": {
+    "capturingGroup": "(...) - Captures the matched group",
+    "nonCapturingGroup": "(?:...) - Non-capturing group",
+    "positiveLookahead": "(?=...) - Positive lookahead",
+    "negativeLookahead": "(?!...) - Negative lookahead",
+    "positiveLookbehind": "(?<=...) - Positive lookbehind",
+    "negativeLookbehind": "(?<!...) - Negative lookbehind",
+    "namedGroups": "(?P<name>...) - Named capturing group"
+  },
+  "specialCharacters": {
+    "backslash": "\\ - Escapes a special character",
+    "caret": "^ - Inside a character set, negates the set",
+    "pipe": "| - Alternation, matches either the pattern before or after the pipe"
+  },
+  "flags": {
+    "global": "g - Global search",
+    "caseInsensitive": "i - Case insensitive search",
+    "multiline": "m - Multiline search",
+    "dotAll": "s - DOTALL mode, . matches newline characters",
+    "extended": "x - Extended mode for whitespace and comments",
+    "unicode": "u - Unicode mode",
+    "Anchored": "A - Anchored mode",
+    "DollarEndOnly": "D - Dollar matches only at the end",
+    "Extra": "X - Extra mode for additional functionality"
+  },
+  "additionalFeatures": {
+    "conditionalPatterns": "(?(condition)yes-pattern|no-pattern) - Conditional patterns",
+    "backReferences": "\\1, \\2, ... - Back references to capturing groups",
+    "recursivePatterns": "(?R) - Recursive patterns",
+    "verbatimSequences": "\\Q ... \\E - Treats enclosed characters as verbatim"
+  }
+}

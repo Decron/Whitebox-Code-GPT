@@ -1,0 +1,54 @@
+{
+  "characterClasses": {
+    "dot": "Matches any character except newline, unless DOTALL mode is set",
+    "word": "\\w - Matches any word character (alphanumeric & underscore)",
+    "nonWord": "\\W - Matches any non-word character",
+    "digit": "\\d - Matches any digit",
+    "nonDigit": "\\D - Matches any non-digit character",
+    "whitespace": "\\s - Matches any whitespace character (spaces, tabs, line breaks)",
+    "nonWhitespace": "\\S - Matches any non-whitespace character"
+  },
+  "quantifiers": {
+    "zeroOrMore": "* - Matches 0 or more repetitions",
+    "oneOrMore": "+ - Matches 1 or more repetitions",
+    "zeroOrOne": "? - Matches 0 or 1 repetition",
+    "exact": "{n} - Matches exactly n occurrences",
+    "range": "{n,m} - Matches between n and m occurrences",
+    "greedy": "By default, quantifiers are greedy",
+    "reluctant": "*?, +?, ??, {n,m}? - Reluctant (non-greedy) quantifiers",
+    "possessive": "*+, ++, ?+, {n,m}+ - Possessive quantifiers"
+  },
+  "anchorsAndBoundaries": {
+    "beginningOfString": "^ - Matches the beginning of a string",
+    "endOfString": "$ - Matches the end of a string",
+    "wordBoundary": "\\b - Matches a word boundary",
+    "nonWordBoundary": "\\B - Matches a non-word boundary"
+  },
+  "groupsAndLookaround": {
+    "capturingGroup": "(...) - Captures the matched group",
+    "nonCapturingGroup": "(?:...) - Non-capturing group",
+    "positiveLookahead": "(?=...) - Positive lookahead",
+    "negativeLookahead": "(?!...) - Negative lookahead",
+    "positiveLookbehind": "(?<=...) - Positive lookbehind",
+    "negativeLookbehind": "(?<!...) - Negative lookbehind",
+    "namedGroup": "(?P<name>...) - Named capturing group (Java 7+)"
+  },
+  "specialCharacters": {
+    "backslash": "\\ - Escapes a special character",
+    "caret": "^ - Inside a character set, negates the set",
+    "pipe": "| - Alternation, matches either the pattern before or after the pipe",
+    "squareBrackets": "[] - Character set, matches any character within the brackets"
+  },
+  "flags": {
+    "caseInsensitive": "Pattern.CASE_INSENSITIVE - Case insensitive matching",
+    "multiline": "Pattern.MULTILINE - ^ and $ match start and end of a line",
+    "dotAll": "Pattern.DOTALL - Dot matches all, including newline",
+    "unicodeCharacterClass": "Pattern.UNICODE_CHARACTER_CLASS - Use Unicode TR#18 character classes",
+    "comments": "Pattern.COMMENTS - Permits whitespace and comments in pattern"
+  },
+  "additionalFeatures": {
+    "unicodeCase": "Pattern.UNICODE_CASE - Use Unicode case folding",
+    "canonicalEquivalence": "Pattern.CANON_EQ - Considers canonically equivalent character sequences as identical",
+    "literal": "Pattern.LITERAL - Enables literal parsing of the pattern"
+  }
+}

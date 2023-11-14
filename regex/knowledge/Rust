@@ -1,0 +1,50 @@
+{
+  "characterClasses": {
+    "dot": "Matches any character except newline, unless multi-line mode is enabled",
+    "word": "\\w - Matches any word character (alphanumeric & underscore)",
+    "nonWord": "\\W - Matches any non-word character",
+    "digit": "\\d - Matches any digit",
+    "nonDigit": "\\D - Matches any non-digit character",
+    "whitespace": "\\s - Matches any whitespace character (spaces, tabs, line breaks)",
+    "nonWhitespace": "\\S - Matches any non-whitespace character"
+  },
+  "quantifiers": {
+    "zeroOrMore": "* - Matches 0 or more repetitions",
+    "oneOrMore": "+ - Matches 1 or more repetitions",
+    "zeroOrOne": "? - Matches 0 or 1 repetition",
+    "exact": "{n} - Matches exactly n occurrences",
+    "range": "{n,m} - Matches between n and m occurrences",
+    "greedy": "Quantifiers are greedy by default",
+    "nonGreedy": "*?, +?, ??, {n,m}? - Non-greedy (lazy) quantifiers"
+  },
+  "anchorsAndBoundaries": {
+    "beginningOfString": "^ - Matches the beginning of a string",
+    "endOfString": "$ - Matches the end of a string",
+    "wordBoundary": "\\b - Matches a word boundary",
+    "nonWordBoundary": "\\B - Matches a non-word boundary"
+  },
+  "groupsAndLookaround": {
+    "capturingGroup": "(...) - Captures the matched group",
+    "nonCapturingGroup": "(?:...) - Non-capturing group",
+    "lookahead": "Lookahead assertions (positive (?=...) and negative (?!...)) are supported",
+    "lookbehind": "Lookbehind assertions are not supported"
+  },
+  "specialCharacters": {
+    "backslash": "\\ - Escapes a special character",
+    "caret": "^ - Inside a character set, negates the set",
+    "pipe": "| - Alternation, matches either the pattern before or after the pipe",
+    "squareBrackets": "[] - Character set, matches any character within the brackets"
+  },
+  "flags": {
+    "caseInsensitive": "i - Case insensitive search",
+    "multiLine": "m - Multi-line mode, ^ and $ match start and end of a line",
+    "dotMatchesNewLine": "s - Dot matches new line characters",
+    "unicode": "u - Unicode support (enabled by default)",
+    "swapGreed": "U - Inverts the greediness of quantifiers"
+  },
+  "limitations": {
+    "backReferences": "Backreferences (\\1, \\2, ...) are not supported",
+    "complexLookbehind": "Complex lookbehind patterns are not supported",
+    "variableLengthLookbehind": "Variable-length lookbehind is not supported"
+  }
+}
