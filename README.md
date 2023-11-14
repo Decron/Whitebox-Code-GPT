@@ -68,9 +68,9 @@ Customization: This approach allows for customization of the GPT model’s respo
 # Custodial process:
 Each assistant is assigned a custodian to manage its state and field questions. They are a subject matter expert for their given technology and are the sole decider of what content is included in the official model.<br>
 
-admin: The admin will assess possible candidates and grant ownership to the most qualified candidate. The admin is the sole decider of who is the official custodian of a assistant but should seek out the opinions of the community before adding or revoking custodianship.<br>
-
 custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your assistant. In the issue, comment links to chat instances that demonstrate effectiveness of the assistant. Once you are granted access, set up the folder for your assistant and create a pull request.<br>
+
+admin: The admin will assess possible candidates and grant custodianship to the most qualified candidate. The admin is the sole decider of who is the official custodian of a assistant but should seek out the opinions of the community before adding or revoking custodianship.<br>
 
 admin: Once the assistant is complete and a link is provided, the admin will confirm the directory in this file is updated and then merge the pull request.<br>
 
@@ -79,13 +79,15 @@ revoking custodianship: If a custodian wishes to forfeit custodianship of an ass
 revoking adminship: we'll cross that bridge when we come to it 😧
 
 # Making and maintaining assistants:
-Activity: Once custodianship is granted, you're free to update your assistant however you see fit. We just ask that you make a reasonable effort to seek and aggregate user requests and improve your assistant, especially during periods of high activity such as when OpenAI updates their models, or a new major revision of a language is released.<br><br>
+**Activity:** Once custodianship is granted, you're free to update your assistant however you see fit. We just ask that you make a reasonable effort to seek and aggregate user requests and improve your assistant, especially during periods of high activity such as when OpenAI updates their models, or a new major revision of a language is released.<br><br>
 
-Standards: The custodian has the final say in the name and description of a assistant but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Python development made easy. Maintained by Whitebox at https://github.com/Decron/Whitebox"<br><br>
+**Standards:** The custodian has the final say in the name and description of a assistant but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Python development made easy. Maintained by Whitebox at https://github.com/Decron/Whitebox"<br><br>
 
-Experimentation: It may be beneficial to create a backup assistant to experiment with to avoid disrupting users of the primary assistant.<br><br>
+**Experimentation:** It may be beneficial to create a backup assistant to experiment with to avoid disrupting users of the primary assistant.<br><br>
 
-Conversation training: For now we ask that you disable conversation training for the models under your purvue. There are pros and cons of leaving it disabled, and the topic can be addressed later if the community believes conversation training is important.<br><br>
+**Conversation training:** For now we ask that you disable conversation training for the models under your purvue. There are pros and cons of leaving it disabled, and the topic can be addressed later if the community believes conversation training is important.<br><br>
+
+**Less is more:** If your assistant is struggling with too many files or over-generlization, you can always split it into multiple assistants.<br><br>
 
 # Are Whitebox assistants safe for enterprises?
   For the most part yes, here are the facts:<br>
