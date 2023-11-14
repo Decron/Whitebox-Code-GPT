@@ -1,12 +1,12 @@
 # Welcome to Whitebox <img align="right" width="200" height="200" src=https://github.com/Decron/Whitebox-Code-GPT/assets/1786607/ac62d7b4-dadf-4092-91a2-a7b5fce4261b>
 
-Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case 🎒<br> 
+🎒 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case <br> 
 
 The goal is to accelerate capabilities of free programming assistants with GPT builder. Here you'll find instructions & knowledge files for creating next-gen programming assistants.
 
-If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
+All programming-related assistants are welcome. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>." <br>
 
-**If you are experiencing an issue with one of our assistants**: kindly include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
+**If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
 
 # Existing models:
 *all assistants are hosted on ChatGPT. Models are 100% free to use for ChatGPT premium users.*<br>
