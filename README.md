@@ -1,11 +1,11 @@
 # Welcome to Whitebox <img align="right" width="200" height="200" src=https://github.com/Decron/Whitebox-Code-GPT/assets/1786607/ac62d7b4-dadf-4092-91a2-a7b5fce4261b>
 
-Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case:<br> 
+Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case 🎒<br> 
 
-The goal is to accelerate capabilities of free programming assistants with GPT builder. In this repository you'll find instructions & knowledge files for creating next-gen programming assistants.
+The goal is to accelerate capabilities of free programming assistants with GPT builder. Here you'll find instructions & knowledge files for creating next-gen programming assistants.
 
-As this project evolves, assistants will be programmed with customized knowledge files and actions that extend its utility and improve the function of the base model.<br><br>
-To do this we must define the largest blindspots in default GPT4 and create assistants to improve functionality in specific domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
+If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
+
 **If you are experiencing an issue with one of our assistants**: kindly include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
 
 # Existing models:
@@ -47,7 +47,7 @@ Industry-specific:
    *If a user does not have ChatGPT premium, assistants may still be used by copying knowledge files to a different LLM.*
    
 2. Background<br>
-AI assistants accelerate programming by suggesting improvments and providing context about technical details. A key flaw however is that they are not continuously up to date on best practices for every domain. Because of this, all models have blind spots that limit their full potential. This project aims to combat those flaws by creating knowledge files and instructions that are purpose-designed to fill the gaps of a model's knowledge.
+AI assistants accelerate programming by suggesting improvments and providing context based on a wide training set of language and code. A key flaw is that they are not continuously up to date on best practices for every domain. Because of this, all models have blind spots that limit their full potential. To counteract this we must define the blindspots caused by training and create techniques to overcome them. 
 
 3. Purpose and Function<br>
 expanded context: The latest generation of multimodal LLMs have the capacity to parse through massive files that would typically overwhelm its context window. If information is structured correctly, this can vastly increase the amount of knowledge availible to a model when working in a known field. For instance, by creating specific rule sets for each flavor of regex, we greatly improved our assistant's ability to create valid patterns that did not mix flavors.<br><br>
@@ -65,18 +65,14 @@ Enhanced Accuracy: By having direct access to detailed information, the GPT mode
 Efficiency: Since the data is structured and tailored for quick retrieval, the response time can be faster for queries related to these entities.<br><br>
 Customization: This approach allows for customization of the GPT model’s responses based on the specific requirements of the application or domain.<br><br>
 
-6. Applications<br>
-general: integrating enhanced capabilities will significantly improve user experience, especially in applications where specialized knowledge is a key component of development.<br><br>
-Industry-Specific Uses: For industries like healthcare, finance, or law, where specialized knowledge is vital, these files can greatly enhance the model's performance.<br><br>
-
 # Custodial process:
 Each assistant is assigned a custodian to manage its state and field questions. They are a subject matter expert for their given technology and are the sole decider of what content is included in the official model.<br>
 
 admin: The admin will assess possible candidates and grant ownership to the most qualified candidate. The admin is the sole decider of who is the official custodian of a assistant but should seek out the opinions of the community before adding or revoking custodianship.<br>
 
-custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your assistant. In the issue, comment links to chat instances that demonstrate effectiveness of the assistant. Once you are granted access, duplicate the template folder and configure the files within to reflect the state of your assistant.<br>
+custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your assistant. In the issue, comment links to chat instances that demonstrate effectiveness of the assistant. Once you are granted access, set up the folder for your assistant and create a pull request.<br>
 
-admin: Once the assistant is complete and a link is provided, the admin will update the directory in this file to include the new assistant. The admin will then close the pull request to update the main branch with the new model.<br>
+admin: Once the assistant is complete and a link is provided, the admin will confirm the directory in this file is updated and then merge the pull request.<br>
 
 revoking custodianship: If a custodian wishes to forfeit custodianship of an assistant, we ask that they participate in finding a suitable replacement. Once found, we will grant them access and update the directory to reflect the change of ownership.<br>
 
@@ -102,15 +98,15 @@ Conversation training: For now we ask that you disable conversation training for
 
 # Getting involved:
 **Contributing**<br>
-* Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an [issue](https://github.com/Decron/Whitebox-Code-GPT/issues) or a [discussion](https://github.com/Decron/Whitebox-Code-GPT/discussions) post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
+* The most important thing is to understand GPT4's weaknesses and blind spots. If you find it struggling with certain topics or see complaints online, open an [issue](https://github.com/Decron/Whitebox-Code-GPT/issues) or a [discussion](https://github.com/Decron/Whitebox-Code-GPT/discussions) to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
 * Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming assistants.
-* If you're reading this we want to hear your use case. What annoys you most about programming assistants? Go open a discussion and we'll do our best to fix it.
+* If you're reading this we want to hear your use case. What annoys you most about programming assistants? Go open a discussion and we'll do our best to improve your experience.
 * If you don't have access to ChatGPT premium, we'd love to collaborate on other applications for our knowledge files.
 * If you'd like to hear announcements about new assistant releases and partnered agents, follow us for free on [Substack](https://substack.com/@thehadriogroup?utm_source=edit-profile-page)<br><br>
 
 **Support**<br>
 * Whitebox is maintained entirely by volunteers. If you would like to donate to the project, see our [Donation Link](https://paypal.me/Hadrio?country.x=US&locale.x=en_US)
-* If you're looking for Whitebox swag, we have a merch page [here](https://www.redbubble.com/i/sweatshirt/Hadrio-Whitebox-by-JimmyDonovan/147231741.LEP2X)
+* If you're interested in Whitebox swag, we have a merch page [here](https://www.redbubble.com/i/sweatshirt/Hadrio-Whitebox-by-JimmyDonovan/147231741.LEP2X)
 
 # "I don't like reading is there a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
