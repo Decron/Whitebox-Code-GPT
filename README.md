@@ -10,17 +10,18 @@ The GPT builder platform is less than 2 weeks old so try to temper expectations 
 
 # Existing models:
 You can access an instance of all live assistants hosted on ChatGPT. All models are 100% free to use for ChatGPT premium users.<br>
-* [Git assistant (Decron)](https://chat.openai.com/g/g-8z4fiuUqu-git-assistant)<br>
-* [Flutter GPT (Decron)](https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt)<br>
-* [Firebase GPT (Decron)](https://chat.openai.com/g/g-1PHZ3Y82z-firebase-gpt)<br>
-* [Python GPT (Decron)](https://chat.openai.com/g/g-c188mmoYi-python-gpt)<br>
-* [Node.js GPT (Decron)](https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt) -- up for adoption<br>
-* [C++ GPT (Decron)](https://chat.openai.com/g/g-8boxKPzCP-c-gpt) -- up for adoption<br>
-* C# (PrimeEagle) *Coming soon*
+* [Git assistant](https://chat.openai.com/g/g-8z4fiuUqu-git-assistant)<br>
+* [Regex assistant](https://chat.openai.com/g/g-kftiI07yn-regex-assistant)<br>
+* [Flutter GPT](https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt)<br>
+* [Firebase GPT](https://chat.openai.com/g/g-1PHZ3Y82z-firebase-gpt)<br>
+* [Python GPT](https://chat.openai.com/g/g-c188mmoYi-python-gpt)<br>
+* [Node.js GPT](https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt) -- up for adoption<br>
+* [C++ GPT](https://chat.openai.com/g/g-8boxKPzCP-c-gpt) -- up for adoption<br>
+* C# *Coming soon*
 <br><br>
 
 Industry-specific:
-  * Bioinformatics (3jame): *Coming soon*
+  * Bioinformatics: *Coming soon*
 <br><br>
 
 # Partnered models:
