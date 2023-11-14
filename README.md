@@ -105,7 +105,7 @@ revoking custodianship: If a custodian wishes to forfeit custodianship of an ass
 
 # Getting involved:
 **Contributing**<br>
-* The most important thing is to understand GPT4's weaknesses and blind spots. If you find it struggling with certain topics or see complaints online, open an [issue](https://github.com/Decron/Whitebox-Code-GPT/issues) or a [discussion](https://github.com/Decron/Whitebox-Code-GPT/discussions) to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
+* The most important thing is to understand GPT4's weaknesses and blind spots. If you find it struggling with certain topics or see complaints online, open an [issue](https://github.com/Decron/Whitebox-Code-GPT/issues) or a [discussion](https://github.com/Decron/Whitebox-Code-GPT/discussions) to help us understand the problem.
 * Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming assistants.
 * If you're reading this we want to hear your use case. What annoys you most about programming assistants? Go open a discussion and we'll do our best to improve your experience.
 * If you don't have access to ChatGPT premium, we'd love to collaborate on other applications for our knowledge files.
