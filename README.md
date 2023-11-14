@@ -14,7 +14,7 @@ All ideas are welcome. If you would like a new GPT to be created, or would like 
   [Substack](https://substack.com/@thehadriogroup?utm_source=edit-profile-page)
 
 # Existing models:
-*all assistants are hosted on ChatGPT and are 100% free to use for ChatGPT premium users. Assistants are held to the highest standards and are quality-tested to guaruntee a great user experience.*<br>
+*all assistants are hosted on ChatGPT and are 100% free to use for ChatGPT premium users. Assistants are held to the highest standards and are quality-tested to guarantee a great user experience.*<br>
 * [Python GPT](https://chat.openai.com/g/g-c188mmoYi-python-gpt)<br>
 * [Flutter GPT](https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt)<br>
 * [Git assistant](https://chat.openai.com/g/g-8z4fiuUqu-git-assistant)<br>
