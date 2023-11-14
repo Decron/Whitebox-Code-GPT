@@ -9,7 +9,7 @@ To do this we must define the largest blindspots in default GPT4 and create assi
 **If you are experiencing an issue with one of our assistants**: kindly include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
 
 # Existing models:
-You can access an instance of all live assistants hosted on ChatGPT. All models are 100% free to use for ChatGPT premium users.<br>
+*all assistants are hosted on ChatGPT. Models are 100% free to use for ChatGPT premium users.*<br>
 * [Git assistant](https://chat.openai.com/g/g-8z4fiuUqu-git-assistant)<br>
 * [Regex assistant](https://chat.openai.com/g/g-kftiI07yn-regex-assistant)<br>
 * [Flutter GPT](https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt)<br>
@@ -23,6 +23,8 @@ You can access an instance of all live assistants hosted on ChatGPT. All models 
 Industry-specific:
   * Bioinformatics: *Coming soon*
 <br><br>
+
+[Dorkotron](https://chat.openai.com/g/g-w8BP4FYQR-gpt-dorkotron) for finding everything else.<br><br>
 
 # Partnered models:
 * [GPT Instruction Builder](https://chat.openai.com/g/g-VPSbVqjy1-system-instruction-constructor)
