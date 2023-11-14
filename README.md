@@ -14,7 +14,7 @@ All ideas are welcome. If you would like a new GPT to be created, or would like 
   [Substack](https://substack.com/@thehadriogroup?utm_source=edit-profile-page)
 
 # Existing models:
-*all assistants are hosted on ChatGPT and are 100% free to use for ChatGPT premium users. Assistants are held to the highest standards and are quality-tested to guaruntee a good user experience.*<br>
+*all assistants are hosted on ChatGPT and are 100% free to use for ChatGPT premium users. Assistants are held to the highest standards and are quality-tested to guaruntee a great user experience.*<br>
 * [Python GPT](https://chat.openai.com/g/g-c188mmoYi-python-gpt)<br>
 * [Flutter GPT](https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt)<br>
 * [Git assistant](https://chat.openai.com/g/g-8z4fiuUqu-git-assistant)<br>
@@ -23,9 +23,9 @@ All ideas are welcome. If you would like a new GPT to be created, or would like 
 * [Node.js GPT](https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt) -- up for adoption<br>
 * [C++ GPT](https://chat.openai.com/g/g-8boxKPzCP-c-gpt) -- up for adoption<br>
 * C# *Coming soon*
-<br><br>
+<br>
 
-Industry-specific:
+**Application-specific**:
   * Bioinformatics: *Coming soon*
 <br><br>
 
@@ -41,7 +41,7 @@ Industry-specific:
 - [How does it work?](#how-does-it-work)
 - [Custodial Process](#custodial-process)
 - [Making and Maintaining Assistants](#making-and-maintaining-assistants)
-- [Are Whitebox assistants safe for enterprise use?](#are-whitebox-assistants-safe-for-enterprise-use)
+- [Are Whitebox assistants safe for enterprises?](#are-whitebox-assistants-safe-for-enterprises)
 - [Getting Involved](#getting-involved)
 - ["I don't like reading is there a GPT that will spoonfeed this to me?"](#i-dont-like-reading-is-there-a-gpt-that-will-spoonfeed-this-to-me)
 
