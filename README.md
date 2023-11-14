@@ -1,4 +1,5 @@
-# Welcome to Whitebox <img align="right" width="200" height="200" src=https://github.com/Decron/Whitebox-Code-GPT/assets/1786607/ac62d7b4-dadf-4092-91a2-a7b5fce4261b>
+# Welcome to Whitebox <img align="right" width="200" height="200" src=https://github.com/Decron/Whitebox-Code-GPT/assets/1786607/aa21eaaa-2016-4369-a0b1-b0fe14bf5bab>
+
 
 🎒 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case <br> 
 
@@ -124,7 +125,7 @@ Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
  # Additional models
  *This project is geared to optimize assistants for the custom GPT marketplace provided by OpenAI. If you find that our knowledge files transfer effectively to other models, we would be very interested in hearing more about it.*<br><br><hr/><br><br>
  <p align="center">
-<img align="center" width="100" height="100" src=https://github.com/Decron/Whitebox-Code-GPT/assets/1786607/ac62d7b4-dadf-4092-91a2-a7b5fce4261b>
+<img align="center" width="100" height="100" src=https://github.com/Decron/Whitebox-Code-GPT/assets/1786607/aa21eaaa-2016-4369-a0b1-b0fe14bf5bab>
   <br>
  Wander with confidence.
  </p> 
