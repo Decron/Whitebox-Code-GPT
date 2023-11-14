@@ -6,10 +6,10 @@ The goal is to accelerate capabilities of free programming assistants with GPT b
 
 All programming-related assistants are welcome. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>." <br>
 
-**If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
+**If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information, generalized plain text may be copied and pasted.<br><br>
 
 # Existing models:
-*all assistants are hosted on ChatGPT. Models are 100% free to use for ChatGPT premium users.*<br>
+*all assistants are hosted on ChatGPT which is 100% free to use for ChatGPT premium users. Assistants are held to the highest standards and are quality-tested to guaruntee a good user experience.*<br>
 * [Git assistant](https://chat.openai.com/g/g-8z4fiuUqu-git-assistant)<br>
 * [Regex assistant](https://chat.openai.com/g/g-kftiI07yn-regex-assistant)<br>
 * [Flutter GPT](https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt)<br>
@@ -56,9 +56,9 @@ Integration with GPT: These files are designed to be integrated into the LLM's e
 Content Organization: Information within these files is usually organized in a hierarchical or relational manner, allowing the model to understand the connections between different pieces of data.<br><br>
 
 4. Creation and Maintenance<br>
-Data Sourcing: The information in these files is compiled from reliable sources, ensuring accuracy and relevancy. Experts for given frameworks are welcome to create new knowledge files or improvements to how models operate.<br><br>
+Data Sourcing: The information in these files is compiled from reliable sources, ensuring accuracy and relevancy. Experts for given frameworks are welcome to contribute files or improvements.<br><br>
 Regular Updates: To maintain the relevance of the information, these knowledge files are regularly updated with the latest data.<br><br>
-Quality Assurance: Rigorous checks are conducted to ensure accuracy of the information. A secondary goal of this project is to develop automated testing to ensure widespread functionality can be guarunteed for all models.<br><br>
+Quality Assurance: Assistants are checked rigorously to ensure accuracy of the information. A secondary goal of this project is to develop automated testing to ensure widespread functionality can be guarunteed for all models.<br><br>
 
 5. Impact on GPT Performance<br>
 Enhanced Accuracy: By having direct access to detailed information, the GPT model can provide better and more accurate responses.<br><br>
