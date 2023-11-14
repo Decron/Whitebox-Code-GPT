@@ -10,9 +10,9 @@ All ideas are welcome. If you would like to add a new assistant, fork this repos
 
 **If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information, generalized plain text may be copied and pasted.<br>
 
-[Twitter](https://twitter.com/Hadrio_Official)
-  [Threads](https://www.threads.net/@_hadrio)
-  [Substack](https://substack.com/@thehadriogroup?utm_source=edit-profile-page)
+[Twitter](https://twitter.com/Hadrio_Official) |
+  [Threads](https://www.threads.net/@_hadrio) |
+  [Discord (new!)](https://discord.gg/xXb7qWq7) |
 
 # Existing models:
 *all assistants are hosted on ChatGPT and are 100% free to use for ChatGPT premium users. Assistants are held to the highest standards and are quality-tested to guarantee a great user experience.*<br>
