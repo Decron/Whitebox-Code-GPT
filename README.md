@@ -2,10 +2,10 @@
 
 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case:<br> 
 
-Our goal is to accelerate the capabilities of free programming assistants with GPT builder. In this repository you'll find instructions & knowledge files for creating next-gen programming assistants.
+The goal is to accelerate capabilities of free programming assistants with GPT builder. In this repository you'll find instructions & knowledge files for creating next-gen programming assistants.
 
-As this project evolves, GPTs will be programmed with customized knowledge files and actions that extend its utility and improve the function of the base GPT model.<br><br>
-Our current goals are to define the largest blindspots in default GPT4 and create assistants to improve functionality in specific domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
+As this project evolves, assistants will be programmed with customized knowledge files and actions that extend its utility and improve the function of the base model.<br><br>
+To do this we must define the largest blindspots in default GPT4 and create assistants to improve functionality in specific domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
 **If you are experiencing an issue with one of our assistants**: kindly include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
 
 # Existing models:
@@ -41,15 +41,16 @@ Industry-specific:
 # How does it work?
 0. What are Custom GPTs?<br>
    Custom GPT's allow experts to collaborate and condense their knowledge into a single assistant powered by GPT4. You can read OpenAI's announcement [here](https://openai.com/blog/introducing-gpts)<br>
-   Because they're hosted on ChatGPT, all Code-GPT assistants can be used freely and require no installation (provided the user has a ChatGPT premium account, for now.)
+   Because they're hosted on ChatGPT, all Code-GPT assistants can be used freely and require no installation.<br>
+   *If a user does not have ChatGPT premium, assistants may still be used by copying knowledge files to a different LLM.*
    
 2. Background<br>
-AI models can accelerate a developer's abilities by suggesting improvments and providing context about technical details. A key flaw however is that they are not continuously up to date on best practices for every domain. Because of this, all models have blind spots that limit their full potential. This project aims to combat those flaws by creating knowledge files and instructions that are purpose-designed to fill the gaps of a model's knowledge.
+AI assistants accelerate programming by suggesting improvments and providing context about technical details. A key flaw however is that they are not continuously up to date on best practices for every domain. Because of this, all models have blind spots that limit their full potential. This project aims to combat those flaws by creating knowledge files and instructions that are purpose-designed to fill the gaps of a model's knowledge.
 
-1. Purpose and Functionality<br>
-expanded context: The latest generation of multimodal LLM models have the capacity to parse through massive files that would typically overwhelm its context window. If information is structured correctly, this can vastly increase the amount of knowledge availible to a model when working in a known field.<br><br>
-Specialization: Each knowledge file is dedicated to a particular entity or topic, providing in-depth information about it. This could include historical data, technical specifications, or any relevant details.<br><br>
-Integration with GPT: These files are designed to be integrated into the GPT model's existing knowledge base, augmenting its ability to generate accurate and contextually relevant responses about the specific entities.<br><br>
+3. Purpose and Function<br>
+expanded context: The latest generation of multimodal LLMs have the capacity to parse through massive files that would typically overwhelm its context window. If information is structured correctly, this can vastly increase the amount of knowledge availible to a model when working in a known field. For instance, by creating specific rule sets for each flavor of regex, we greatly improved our assistant's ability to create valid patterns that did not mix flavors.<br><br>
+Specialization: Each knowledge file is dedicated to a particular entity or topic, providing in-depth information about it. This could include historical data, technical specifications, or any relevant details that aids the assistant's understanding of a topic.<br><br>
+Integration with GPT: These files are designed to be integrated into the LLM's existing knowledge base, augmenting its ability to generate accurate and contextually relevant responses about the specific entities.<br><br>
 Content Organization: Information within these files is usually organized in a hierarchical or relational manner, allowing the model to understand the connections between different pieces of data.<br><br>
 
 4. Creation and Maintenance<br>
@@ -57,13 +58,13 @@ Data Sourcing: The information in these files is compiled from reliable sources,
 Regular Updates: To maintain the relevance of the information, these knowledge files are regularly updated with the latest data.<br><br>
 Quality Assurance: Rigorous checks are conducted to ensure accuracy of the information. A secondary goal of this project is to develop automated testing to ensure widespread functionality can be guarunteed for all models.<br><br>
 
-6. Impact on GPT Performance<br>
+5. Impact on GPT Performance<br>
 Enhanced Accuracy: By having direct access to detailed information, the GPT model can provide better and more accurate responses.<br><br>
-Efficiency in Data Retrieval: Since the data is structured and tailored for quick retrieval, the response time can be faster for queries related to these entities.<br><br>
+Efficiency: Since the data is structured and tailored for quick retrieval, the response time can be faster for queries related to these entities.<br><br>
 Customization: This approach allows for customization of the GPT model’s responses based on the specific requirements of the application or domain.<br><br>
 
-7. Applications<br>
-general: integrating enhanced GPT capabilities will significantly improve user experience, especially in applications where specialized knowledge is a key component of user interactions. The design should ensure seamless integration of knowledge files.<br><br>
+6. Applications<br>
+general: integrating enhanced capabilities will significantly improve user experience, especially in applications where specialized knowledge is a key component of development.<br><br>
 Industry-Specific Uses: For industries like healthcare, finance, or law, where specialized knowledge is vital, these files can greatly enhance the model's performance.<br><br>
 
 # Custodial process:
@@ -73,7 +74,7 @@ admin: The admin will assess possible candidates and grant ownership to the most
 
 custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your assistant. In the issue, comment links to chat instances that demonstrate effectiveness of the assistant. Once you are granted access, duplicate the template folder and configure the files within to reflect the state of your assistant.<br>
 
-admin: Once the assistant is complete and a link is provided, the admin will update the directory in this file to include the new assistant. The admin will then issue and close a pull request to update the main branch with the new model.<br>
+admin: Once the assistant is complete and a link is provided, the admin will update the directory in this file to include the new assistant. The admin will then close the pull request to update the main branch with the new model.<br>
 
 revoking custodianship: If a custodian wishes to forfeit custodianship of an assistant, we ask that they participate in finding a suitable replacement. Once found, we will grant them access and update the directory to reflect the change of ownership.<br>
 
@@ -82,23 +83,24 @@ revoking adminship: we'll cross that bridge when we come to it 😧
 # Making and maintaining assistants:
 Activity: Once custodianship is granted, you're free to update your assistant however you see fit. We just ask that you make a reasonable effort to seek and aggregate user requests and improve your assistant, especially during periods of high activity such as when OpenAI updates their models, or a new major revision of a language is released.<br><br>
 
-Standards: The custodian has the final say in the name and description of a assistant but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Flutter development made easy. Maintained by The Hadrio Group at https://github.com/Decron/FlutterGPT"<br><br>
+Standards: The custodian has the final say in the name and description of a assistant but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Python development made easy. Maintained by Whitebox at https://github.com/Decron/Whitebox"<br><br>
 
 Experimentation: It may be beneficial to create a backup assistant to experiment with to avoid disrupting users of the primary assistant.<br><br>
 
 Conversation training: For now we ask that you disable conversation training for the models under your purvue. There are pros and cons of leaving it disabled, and the topic can be addressed later if the community believes conversation training is important.<br><br>
 
-# Are Whitebox assistants safe for enterprise use?
+# Are Whitebox assistants safe for enterprises?
   For the most part yes, here are the facts:<br>
+  * This project is *enirely* open-source so you may repurpose this repo however you see fit. In return giving credit for our files is appreciated but the decision is ultimately yours.<br>
   * We've asked all custodians to disable conversation training. This setting cannot be truly verified so it is not reccomended to include information you would not want OpenAI to see. Whitebox does not have access to your conversation history.
   * Training based on knowledge files and uploaded documents cannot be disabled with GPT builder. Because of this you should not include sensitive material in knowledge files for our assistants, and you should not upload sensitive files when using them.
   * Unconsented storage of user data by model creators is absolutely prohibbited and will lead to irrevocable dismissal from the project.
-  * If you have a custom OpenAI endpoint, rules about conversation and document training may not apply. Talk to your system administrator.
+  * If you have a custom OpenAI endpoint or you are using our knowledge files on a different LLM, rules about conversation and document training may not apply. Talk to your system administrator.
   * If you would like our assistance creating personalized assistants for your enterprise, please message us at hadriogroup@gmail.com.
 
 # Getting involved:
 **Contributing**<br>
-* Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an issue or a discussion post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
+* Right now the most important thing is to understand GPT4's weaknesses and blind spots. If you see it struggling with certain topics or you find complaints about its behavior online, open an [issue](https://github.com/Decron/Whitebox-Code-GPT/issues) or a [discussion](https://github.com/Decron/Whitebox-Code-GPT/discussions) post to help us understand the problem. The custodians of the relevant bot will fact find and test possible solutions, then update the knowledge files to counteract that specific issue.
 * Secondly, we need to get the word out about this new technology. Share this repo with people you think would be interested, and invite domain experts to contribute by claiming assistants.
 * If you're reading this we want to hear your use case. What annoys you most about programming assistants? Go open a discussion and we'll do our best to fix it.
 * If you don't have access to ChatGPT premium, we'd love to collaborate on other applications for our knowledge files.
@@ -106,7 +108,7 @@ Conversation training: For now we ask that you disable conversation training for
 
 **Support**<br>
 * Whitebox is maintained entirely by volunteers. If you would like to donate to the project, see our [Donation Link](https://paypal.me/Hadrio?country.x=US&locale.x=en_US)
-* If you support our mission (or just like the Whitebox logo), we have a merch page [here](https://www.redbubble.com/i/sweatshirt/Hadrio-Whitebox-by-JimmyDonovan/147231741.LEP2X)
+* If you're looking for Whitebox swag, we have a merch page [here](https://www.redbubble.com/i/sweatshirt/Hadrio-Whitebox-by-JimmyDonovan/147231741.LEP2X)
 
 # "I don't like reading is there a GPT that will spoonfeed this to me?"
 Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
