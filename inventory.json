@@ -15,6 +15,10 @@
         "description": "General purpose Git assistant.",
         "link": "https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt"
     },
+    "regex": {
+        "description": "Specialst for regex patterns of all types.",
+        "link": "https://chat.openai.com/g/g-kftiI07yn-regex-assistant"
+    },
     "Node.js": {
         "description": "Javascript assistant specialized for node.js",
         "link": "https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt"
