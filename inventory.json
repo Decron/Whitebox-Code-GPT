@@ -10,6 +10,9 @@
     "Python": {
         "description": "General purpose Python assistant.",
         "link": "https://chat.openai.com/g/g-c188mmoYi-python-gpt"
+        "subassistants": {
+            "MatPlotLib": "https://chat.openai.com/g/g-Rrmi8GAo0-matplotlib-assistant"
+        }
     },
     "Git": {
         "description": "General purpose Git assistant.",
