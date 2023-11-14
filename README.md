@@ -5,7 +5,7 @@
 
 The goal is to accelerate free high quality AI assistants with GPT builder by allowing experts to collaborate openly. Here you'll find instructions & knowledge files for creating next-gen programming assistants.
 
-All ideas are welcome. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>." <br>
+All ideas are welcome. If you would like to add a new assistant, fork this repository and add your files, then issue a pull request. Also remember to update the index in README.md.
 
 **If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information, generalized plain text may be copied and pasted.<br>
 
@@ -73,9 +73,9 @@ All ideas are welcome. If you would like a new GPT to be created, or would like 
     * Customization: This approach allows for customization of the GPT model’s responses based on the specific requirements of the application or domain.<br><br>
 
 # Custodial process:
-Each assistant is assigned a custodian to manage its state and field questions. They are a subject matter expert for their given technology and are the sole decider of what content is included in the official model.<br>
+Since each assistant must be assoicated with a single OpenAI account, we will assign a custodian to manage its state. They are a subject matter experts for their given technology and are the sole decider of what content is included in the official model.<br>
 
-custodian: If you are interested in becoming a custodian, open an issue for the language or framework you wish to claim, and begin preparing your assistant. In the issue, comment links to chat instances that demonstrate effectiveness of the assistant. Once you are granted access, set up the folder for your assistant and create a pull request.<br>
+custodian: If you are interested in becoming a custodian, create a fork and add a new folder. Once the new assistant is created, issue a pull request to have it added.
 
 admin: The admin will assess possible candidates and grant custodianship to the most qualified candidate. The admin is the sole decider of who is the official custodian of a assistant but should seek out the opinions of the community before adding or revoking custodianship.<br>
 
