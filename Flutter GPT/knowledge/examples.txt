@@ -1,0 +1,26 @@
+Instructions: Read this document as a nested map. The first key is the name of the Flutter package. The following level holds the title of the example, and then the example code in dart. These examples are to be referenced when uncertain about how to properly implement a package but are not to be considered ironclad rules. Each example begins with the marker <start example> and ends with the marker <stop example>
+
+{
+flutter_bloc: {
+        "counter_bloc": <start example>
+		import 'package:bloc/bloc.dart';
+
+        	sealed class CounterEvent {}
+        	final class CounterIncrementPressed extends CounterEvent {}
+        	final class CounterDecrementPressed extends CounterEvent {}
+
+        	/// {@template counter_bloc}
+        	/// A simple [Bloc] that manages an `int` as its state.
+        	/// {@endtemplate}
+        	class CounterBloc extends Bloc<CounterEvent, int> {
+          	/// {@macro counter_bloc}
+          		CounterBloc() : super(0) {
+            			on<CounterIncrementPressed>((event, emit) => emit(state + 1));
+            			on<CounterDecrementPressed>((event, emit) => emit(state - 1));
+          	}
+	stop example>
+        
+
+},
+      
+}
