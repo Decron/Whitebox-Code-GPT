@@ -1,11 +1,11 @@
 # Welcome to Whitebox <img align="right" width="200" height="200" src=https://github.com/Decron/Whitebox-Code-GPT/assets/1786607/aa21eaaa-2016-4369-a0b1-b0fe14bf5bab>
 
 
-🎒 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case <br> 
+🎒 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best programming assistant for your use case. <br> 
 
-The goal is to accelerate capabilities of free programming assistants with GPT builder. Here you'll find instructions & knowledge files for creating next-gen programming assistants.
+The goal is to accelerate free AI, high quality programming assistants with GPT builder by allowing experts to collaborate openly. Here you'll find instructions & knowledge files for creating next-gen programming assistants.
 
-All programming-related assistants are welcome. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>." <br>
+All ideas are welcome. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>." <br>
 
 **If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information, generalized plain text may be copied and pasted.<br><br>
 
@@ -15,11 +15,11 @@ All programming-related assistants are welcome. If you would like a new GPT to b
 
 # Existing models:
 *all assistants are hosted on ChatGPT which is 100% free to use for ChatGPT premium users. Assistants are held to the highest standards and are quality-tested to guaruntee a good user experience.*<br>
+* [Python GPT](https://chat.openai.com/g/g-c188mmoYi-python-gpt)<br>
+* [Flutter GPT](https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt)<br>
 * [Git assistant](https://chat.openai.com/g/g-8z4fiuUqu-git-assistant)<br>
 * [Regex assistant](https://chat.openai.com/g/g-kftiI07yn-regex-assistant)<br>
-* [Flutter GPT](https://chat.openai.com/g/g-u27ZCAhaF-flutter-gpt)<br>
 * [Firebase GPT](https://chat.openai.com/g/g-1PHZ3Y82z-firebase-gpt)<br>
-* [Python GPT](https://chat.openai.com/g/g-c188mmoYi-python-gpt)<br>
 * [Node.js GPT](https://chat.openai.com/g/g-Io3tGysfO-node-js-gpt) -- up for adoption<br>
 * [C++ GPT](https://chat.openai.com/g/g-8boxKPzCP-c-gpt) -- up for adoption<br>
 * C# *Coming soon*
