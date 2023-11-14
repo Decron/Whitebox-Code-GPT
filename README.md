@@ -3,7 +3,7 @@
 
 🎒 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best programming assistant for your use case. <br> 
 
-The goal is to accelerate free AI, high quality programming assistants with GPT builder by allowing experts to collaborate openly. Here you'll find instructions & knowledge files for creating next-gen programming assistants.
+The goal is to accelerate free high quality AI assistants with GPT builder by allowing experts to collaborate openly. Here you'll find instructions & knowledge files for creating next-gen programming assistants.
 
 All ideas are welcome. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>." <br>
 
