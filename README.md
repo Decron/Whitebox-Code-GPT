@@ -7,7 +7,7 @@ The goal is to accelerate free AI, high quality programming assistants with GPT 
 
 All ideas are welcome. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>." <br>
 
-**If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information, generalized plain text may be copied and pasted.<br><br>
+**If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information, generalized plain text may be copied and pasted.<br>
 
 [Twitter](https://twitter.com/Hadrio_Official)
   [Threads](https://www.threads.net/@_hadrio)
@@ -55,19 +55,24 @@ Industry-specific:
 AI assistants accelerate programming by suggesting improvments and providing context based on a wide training set of language and code. A key flaw is that they are not continuously up to date on best practices for every domain. Because of this, all models have blind spots that limit their full potential. To counteract this we must define the blindspots caused by training and create techniques to overcome them. 
 
 3. Purpose and Function<br>
-expanded context: The latest generation of multimodal LLMs have the capacity to parse through massive files that would typically overwhelm its context window. If information is structured correctly, this can vastly increase the amount of knowledge availible to a model when working in a known field. For instance, by creating specific rule sets for each flavor of regex, we greatly improved our assistant's ability to create valid patterns that did not mix flavors.<br><br>
+expanded context: The latest generation of multimodal LLMs have the capacity to parse through massive files that would typically overwhelm its context window. If information is structured correctly, this can vastly increase the amount of knowledge availible to a model when working in a known field. For instance, by creating specific rule sets for each flavor of regex, we greatly improved our assistant's ability to create valid patterns that did not mix flavors.<br>
 Specialization: Each knowledge file is dedicated to a particular entity or topic, providing in-depth information about it. This could include historical data, technical specifications, or any relevant details that aids the assistant's understanding of a topic.<br><br>
-Integration with GPT: These files are designed to be integrated into the LLM's existing knowledge base, augmenting its ability to generate accurate and contextually relevant responses about the specific entities.<br><br>
+Integration with GPT: These files are designed to be integrated into the LLM's existing knowledge base, augmenting its ability to generate accurate and contextually relevant responses about the specific entities.<br>
+
 Content Organization: Information within these files is usually organized in a hierarchical or relational manner, allowing the model to understand the connections between different pieces of data.<br><br>
 
 4. Creation and Maintenance<br>
-Data Sourcing: The information in these files is compiled from reliable sources, ensuring accuracy and relevancy. Experts for given frameworks are welcome to contribute files or improvements.<br><br>
-Regular Updates: To maintain the relevance of the information, these knowledge files are regularly updated with the latest data.<br><br>
+Data Sourcing: The information in these files is compiled from reliable sources, ensuring accuracy and relevancy. Experts for given frameworks are welcome to contribute files or improvements.<br>
+
+Regular Updates: To maintain the relevance of the information, these knowledge files are regularly updated with the latest data.<br>
+
 Quality Assurance: Assistants are checked rigorously to ensure accuracy of the information. A secondary goal of this project is to develop automated testing to ensure widespread functionality can be guarunteed for all models.<br><br>
 
 5. Impact on GPT Performance<br>
-Enhanced Accuracy: By having direct access to detailed information, the GPT model can provide better and more accurate responses.<br><br>
-Efficiency: Since the data is structured and tailored for quick retrieval, the response time can be faster for queries related to these entities.<br><br>
+Enhanced Accuracy: By having direct access to detailed information, the GPT model can provide better and more accurate responses.<br>
+
+Efficiency: Since the data is structured and tailored for quick retrieval, the response time can be faster for queries related to these entities.<br>
+
 Customization: This approach allows for customization of the GPT model’s responses based on the specific requirements of the application or domain.<br><br>
 
 # Custodial process:
@@ -81,18 +86,16 @@ admin: Once the assistant is complete and a link is provided, the admin will con
 
 revoking custodianship: If a custodian wishes to forfeit custodianship of an assistant, we ask that they participate in finding a suitable replacement. Once found, we will grant them access and update the directory to reflect the change of ownership.<br>
 
-revoking adminship: we'll cross that bridge when we come to it 😧
-
 # Making and maintaining assistants:
-**Activity:** Once custodianship is granted, you're free to update your assistant however you see fit. We just ask that you make a reasonable effort to seek and aggregate user requests and improve your assistant, especially during periods of high activity such as when OpenAI updates their models, or a new major revision of a language is released.<br><br>
+**Activity:** Once custodianship is granted, you're free to update your assistant however you see fit. We just ask that you make a reasonable effort to seek and aggregate user requests and improve your assistant, especially during periods of high activity such as when OpenAI updates their models, or a new major revision of a language is released.<br>
 
-**Standards:** The custodian has the final say in the name and description of a assistant but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Python development made easy. Maintained by Whitebox at https://github.com/Decron/Whitebox"<br><br>
+**Standards:** The custodian has the final say in the name and description of a assistant but we ask that they are both descriptive and that the description features a link to this repo. For instance: "Python development made easy. Maintained by Whitebox at https://github.com/Decron/Whitebox"<br>
 
-**Experimentation:** It may be beneficial to create a backup assistant to experiment with to avoid disrupting users of the primary assistant.<br><br>
+**Experimentation:** It may be beneficial to create a backup assistant to experiment with to avoid disrupting users of the primary assistant.<br>
 
-**Conversation training:** For now we ask that you disable conversation training for the models under your purvue. There are pros and cons of leaving it disabled, and the topic can be addressed later if the community believes conversation training is important.<br><br>
+**Conversation training:** For now we ask that you disable conversation training for the models under your purvue. There are pros and cons of leaving it disabled, and the topic can be addressed later if the community believes conversation training is important.<br>
 
-**Less is more:** If your assistant is struggling with too many files or over-generlization, you can always split it into multiple assistants.<br><br>
+**Less is more:** If your assistant is struggling with too many files or over-generlization, you can always split it into multiple assistants.<br>
 
 # Are Whitebox assistants safe for enterprises?
   For the most part yes, here are the facts:<br>
