@@ -1,11 +1,11 @@
-# Welcome to Whitebox
+# Welcome to Whitebox <img align="right" width="200" height="200" src=https://github.com/Decron/Whitebox-Code-GPT/assets/1786607/ac62d7b4-dadf-4092-91a2-a7b5fce4261b>
+
 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best assistant for your use case:<br> 
 
 Our goal is to accelerate the capabilities of free programming assistants with GPT builder. In this repository you'll find instructions & knowledge files for creating next-gen programming assistants.
 
 As this project evolves, GPTs will be programmed with customized knowledge files and actions that extend its utility and improve the function of the base GPT model.<br><br>
 Our current goals are to define the largest blindspots in default GPT4 and create assistants to improve functionality in specific domains. If you would like a new GPT to be created, or would like to take custody of one, please open an issue with the title "New GPT request: <type>" or "New GPT custody: <title>"<br><br>
-The GPT builder platform is less than 2 weeks old so try to temper expectations when using our assistants. With time and collaboration we will continuously improve their performance and create something truly powerful. For now the most important thing is to define the blind spots of the base model so we can create guidance to counteract them.<br><br>
 **If you are experiencing an issue with one of our assistants**: kindly include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information then generalized plain text may be copied and pasted.<br><br>
 
 # Existing models:
@@ -116,4 +116,11 @@ Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
  *This project was brought to you by The Hadrio Group. We are a San Francisco based community of MIT and UC Berkeley alumni that focuses on quality and data stewardship in AI.*<br><br>
 
  # Additional models
- *This project is geared to optimize assistants for the custom GPT marketplace provided by OpenAI. If you find that our knowledge files transfer effectively to other models, we would be very interested in hearing more about it.*
+ *This project is geared to optimize assistants for the custom GPT marketplace provided by OpenAI. If you find that our knowledge files transfer effectively to other models, we would be very interested in hearing more about it.*<br><br><hr/><br><br>
+ <p align="center">
+<img align="center" width="100" height="100" src=https://github.com/Decron/Whitebox-Code-GPT/assets/1786607/ac62d7b4-dadf-4092-91a2-a7b5fce4261b>
+  <br>
+ Wander with confidence.
+ </p> 
+ 
+
