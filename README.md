@@ -3,9 +3,10 @@
 
 🎒 Our [inventory assistant](https://chat.openai.com/g/g-oBpMxDEHp-inventory-assistant) will deliver a link to the best programming assistant for your use case. <br> 
 
-The goal is to accelerate free high quality AI assistants with GPT builder by allowing experts to collaborate openly. Here you'll find instructions & knowledge files for creating next-gen programming assistants.
+Our goal is to accelerate free high quality AI assistants with GPT builder by allowing experts and users to collaborate openly. Here you'll find instructions & knowledge files for creating next-gen programming assistants.
 
-All ideas are welcome. If you would like to add a new assistant, fork this repository and add your files, then issue a pull request. Also remember to update the index in README.md.
+All ideas are welcome. If you would like to add a new assistant, fork this repository and add your files, then issue a pull request. Also remember to update the index in README.md.<br>
+*If you would rather maintain the assistant alone, you may create issue a pull request adding a link to our partnered index.
 
 **If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information, generalized plain text may be copied and pasted.<br>
 
