@@ -8,6 +8,10 @@ All programming-related assistants are welcome. If you would like a new GPT to b
 
 **If you are experiencing an issue with one of our assistants**: kindly open an issue and include the title of the assistant and links to relevant conversation history. If the conversation contains sensitive information, generalized plain text may be copied and pasted.<br><br>
 
+[Twitter](https://twitter.com/Hadrio_Official)
+  [Threads](https://www.threads.net/@_hadrio)
+  [Substack](https://substack.com/@thehadriogroup?utm_source=edit-profile-page)
+
 # Existing models:
 *all assistants are hosted on ChatGPT which is 100% free to use for ChatGPT premium users. Assistants are held to the highest standards and are quality-tested to guaruntee a good user experience.*<br>
 * [Git assistant](https://chat.openai.com/g/g-8z4fiuUqu-git-assistant)<br>
@@ -124,5 +128,6 @@ Yes: https://chat.openai.com/g/g-cwigWCh11-code-gpt-gpt
   <br>
  Wander with confidence.
  </p> 
+ 
  
 
