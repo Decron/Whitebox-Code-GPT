@@ -28,6 +28,8 @@ All ideas are welcome. If you would like to add a new assistant, fork this repos
 
 **Application-specific**:
   * Bioinformatics: *Coming soon*
+  * Controls & Automation Engineering:
+    * [DeltaV assistant](https://chat.openai.com/g/g-I4nCWakWH-deltav-assistant)
 <br><br>
 
 [Dorkotron](https://chat.openai.com/g/g-w8BP4FYQR-gpt-dorkotron) for finding everything else.<br><br>
